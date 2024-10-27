@@ -16,8 +16,8 @@ interface Station {
   longitude: number;
   countyName: string;
   distance?: number | null;
-  dieselPrice: string | null;
-  unleadedPrice: string | null;
+  dieselPrice: number | null;
+  unleadedPrice: number | null;
 }
 
 function haversineDistance(
@@ -113,16 +113,17 @@ export default function Home() {
       let bValue: number | null = null;
 
       if (sortBy === "dieselPrice") {
-        aValue = a.dieselPrice ? parseFloat(a.dieselPrice) : null;
-        bValue = b.dieselPrice ? parseFloat(b.dieselPrice) : null;
+        aValue = a.dieselPrice;
+        bValue = b.dieselPrice;
       } else if (sortBy === "unleadedPrice") {
-        aValue = a.unleadedPrice ? parseFloat(a.unleadedPrice) : null;
-        bValue = b.unleadedPrice ? parseFloat(b.unleadedPrice) : null;
+        aValue = a.unleadedPrice;
+        bValue = b.unleadedPrice;
       } else if (sortBy === "distance") {
         aValue = a.distance;
         bValue = b.distance;
       }
 
+      if (aValue === null && bValue === null) return 0;
       if (aValue === null) return 1;
       if (bValue === null) return -1;
 
@@ -247,15 +248,11 @@ export default function Home() {
             fuelPrices={[
               {
                 type: "Diesel",
-                price: station.dieselPrice
-                  ? parseFloat(station.dieselPrice)
-                  : "---",
+                price: station.dieselPrice ?? "---",
               },
               {
                 type: "Unleaded",
-                price: station.unleadedPrice
-                  ? parseFloat(station.unleadedPrice)
-                  : "---",
+                price: station.unleadedPrice ?? "---",
               },
             ]}
           />

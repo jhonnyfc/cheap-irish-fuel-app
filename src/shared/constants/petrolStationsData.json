@@ -62,7 +62,7 @@
       "longitude": -6.2358936,
       "countyName": "Co. Dublin",
       "dieselPrice": 1.53,
-      "unleadedPrice": "0.00"
+      "unleadedPrice": null
     },
     {
       "stationName": "Top Oil",
@@ -134,7 +134,7 @@
       "longitude": -9.025932,
       "countyName": "Co. Galway",
       "dieselPrice": 1.75,
-      "unleadedPrice": "0.00"
+      "unleadedPrice": null
     },
     {
       "stationName": "Stewarts Oil",
@@ -614,7 +614,7 @@
       "longitude": -7.7760391,
       "countyName": "Co. Tipperary",
       "dieselPrice": 1.73,
-      "unleadedPrice": "0.00"
+      "unleadedPrice": null
     },
     {
       "stationName": "Top Oil Oldcastle Costcutter",
@@ -1038,7 +1038,7 @@
       "longitude": -6.236922,
       "countyName": "Co. Dublin",
       "dieselPrice": 1.71,
-      "unleadedPrice": "0.00"
+      "unleadedPrice": null
     },
     {
       "stationName": "Applegreen Enfield - M4 Westbound",
@@ -1613,8 +1613,8 @@
       "latitude": 52.0532898,
       "longitude": -9.5071167,
       "countyName": "Co. Kerry",
-      "dieselPrice": "0.00",
-      "unleadedPrice": "0.00"
+      "dieselPrice": null,
+      "unleadedPrice": null
     },
     {
       "stationName": "Top Oil Ballyrafter Service Station",
@@ -2749,7 +2749,7 @@
       "latitude": 54.658803,
       "longitude": -8.0895424,
       "countyName": "Co. Donegal",
-      "dieselPrice": "0.00",
+      "dieselPrice": null,
       "unleadedPrice": 1.81
     },
     {
@@ -2790,7 +2790,7 @@
       "longitude": -6.6337875,
       "countyName": "Co. Wexford",
       "dieselPrice": 1.85,
-      "unleadedPrice": "0.00"
+      "unleadedPrice": null
     },
     {
       "stationName": "Top Oil Fee's Garage",
@@ -4213,8 +4213,8 @@
       "latitude": 52.3754109,
       "longitude": -7.9222876,
       "countyName": "Co. Tipperary",
-      "dieselPrice": "0.00",
-      "unleadedPrice": "0.00"
+      "dieselPrice": null,
+      "unleadedPrice": null
     },
     {
       "stationName": "Hanlon's Gala Service Station",
@@ -5013,7 +5013,7 @@
       "latitude": 53.7621129,
       "longitude": -8.4862424,
       "countyName": "Co. Roscommon",
-      "dieselPrice": "0.00",
+      "dieselPrice": null,
       "unleadedPrice": 1.68
     },
     {
@@ -5038,7 +5038,7 @@
       "longitude": -8.9377688,
       "countyName": "Co. Mayo",
       "dieselPrice": 1.85,
-      "unleadedPrice": "0.00"
+      "unleadedPrice": null
     },
     {
       "stationName": "Circle K Express Banagher Road",
@@ -6181,8 +6181,8 @@
       "latitude": 53.4512062,
       "longitude": -7.0941154,
       "countyName": "Co. Westmeath",
-      "dieselPrice": "0.00",
-      "unleadedPrice": "0.00"
+      "dieselPrice": null,
+      "unleadedPrice": null
     },
     {
       "stationName": "Circle K Autobahn",
@@ -6501,8 +6501,8 @@
       "latitude": 52.2835759,
       "longitude": -9.7270346,
       "countyName": "Co. Kerry",
-      "dieselPrice": "0.00",
-      "unleadedPrice": "0.00"
+      "dieselPrice": null,
+      "unleadedPrice": null
     },
     {
       "stationName": "Circle K Fenit Road",
@@ -6653,8 +6653,8 @@
       "latitude": 54.3898148,
       "longitude": -8.5279501,
       "countyName": "Co. Sligo",
-      "dieselPrice": "0.00",
-      "unleadedPrice": "0.00"
+      "dieselPrice": null,
+      "unleadedPrice": null
     },
     {
       "stationName": "Circle K Carrigaline",
@@ -7309,8 +7309,8 @@
       "latitude": 52.25086,
       "longitude": -6.34263,
       "countyName": "Co. Wexford",
-      "dieselPrice": "1.63",
-      "unleadedPrice": "1.69"
+      "dieselPrice": 1.63,
+      "unleadedPrice": 1.69
     },
     {
       "stationName": "Texaco Spar Mountmellick",
@@ -7509,8 +7509,8 @@
       "latitude": 53.742523,
       "longitude": -7.80253,
       "countyName": "Co. Longford",
-      "dieselPrice": "0.00",
-      "unleadedPrice": "0.00"
+      "dieselPrice": null,
+      "unleadedPrice": null
     },
     {
       "stationName": "Texaco",
@@ -7717,8 +7717,8 @@
       "latitude": 52.529425,
       "longitude": -7.141844,
       "countyName": "Co. Kilkenny",
-      "dieselPrice": "0.00",
-      "unleadedPrice": "0.00"
+      "dieselPrice": null,
+      "unleadedPrice": null
     },
     {
       "stationName": "Texaco N78",
@@ -8197,8 +8197,8 @@
       "latitude": 53.4521631,
       "longitude": -7.1070482,
       "countyName": "Co. Westmeath",
-      "dieselPrice": "0.00",
-      "unleadedPrice": "0.00"
+      "dieselPrice": null,
+      "unleadedPrice": null
     },
     {
       "stationName": "Texaco & Centra N7",
@@ -8453,8 +8453,8 @@
       "latitude": 53.2365259,
       "longitude": -7.3237358,
       "countyName": "Co. Offaly",
-      "dieselPrice": "0.00",
-      "unleadedPrice": "0.00"
+      "dieselPrice": null,
+      "unleadedPrice": null
     },
     {
       "stationName": "Inver Carlow",
@@ -9069,8 +9069,8 @@
       "latitude": 52.700256,
       "longitude": -6.957318,
       "countyName": "Co. Carlow",
-      "dieselPrice": "1.66",
-      "unleadedPrice": "1.69"
+      "dieselPrice": 1.66,
+      "unleadedPrice": 1.69
     },
     {
       "stationName": "Certa",
@@ -12485,8 +12485,8 @@
       "latitude": 53.805344,
       "longitude": -9.130888,
       "countyName": "Co. Mayo",
-      "dieselPrice": "0.00",
-      "unleadedPrice": "0.00"
+      "dieselPrice": null,
+      "unleadedPrice": null
     },
     {
       "stationName": "Circle K Express Louisburgh",
@@ -12589,8 +12589,8 @@
       "latitude": 53.289354,
       "longitude": -6.3358684,
       "countyName": "Co. Dublin",
-      "dieselPrice": "1.69",
-      "unleadedPrice": "1.76"
+      "dieselPrice": 1.69,
+      "unleadedPrice": 1.76
     },
     {
       "stationName": "CIRCLE K GOREY MOTORWAY STATION",
@@ -12949,8 +12949,8 @@
       "latitude": 54.6799573,
       "longitude": -6.0008847,
       "countyName": "Co. Antrim",
-      "dieselPrice": "0.00",
-      "unleadedPrice": "0.00"
+      "dieselPrice": null,
+      "unleadedPrice": null
     },
     {
       "stationName": "Dodds, Bawn Maxol Service Station",
@@ -13005,8 +13005,8 @@
       "latitude": 54.60012,
       "longitude": -5.9135989,
       "countyName": "Co. Armagh",
-      "dieselPrice": "0.00",
-      "unleadedPrice": "0.00"
+      "dieselPrice": null,
+      "unleadedPrice": null
     },
     {
       "stationName": "Maxol Service Station Scarva Road",
@@ -13774,7 +13774,7 @@
       "longitude": -8.692988,
       "countyName": "Co. Limerick",
       "dieselPrice": 1.67,
-      "unleadedPrice": "0.00"
+      "unleadedPrice": null
     },
     {
       "stationName": "Killarney Oil Ltd",
@@ -13973,8 +13973,8 @@
       "latitude": 52.39662242,
       "longitude": -9.17544022,
       "countyName": "Co. Limerick",
-      "dieselPrice": "0.00",
-      "unleadedPrice": "0.00"
+      "dieselPrice": null,
+      "unleadedPrice": null
     },
     {
       "stationName": "Top Oil Ballyhean Service Station",
@@ -14097,5 +14097,5 @@
       "unleadedPrice": 10
     }
   ],
-  "updateDate": "2024-10-27T18:19:06.304Z"
+  "updateDate": "2024-10-27T19:00:12.068Z"
 }
