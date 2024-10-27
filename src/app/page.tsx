@@ -61,7 +61,11 @@ export default function Home() {
       );
       const data = await response.json();
       const city =
-        data.address.city || data.address.town || data.address.village;
+        data.display_name ||
+        data.address.city ||
+        data.address.town ||
+        data.address.village ||
+        data.city_district;
       setCity(city || "Unknown Location");
     } catch (error) {
       console.error("Error fetching location details:", error);
