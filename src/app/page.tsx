@@ -148,7 +148,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center">
-      <p className="text-sm text-gray-600 mb-4">
+      <p className="text-sm text-gray-600 mt-5">
         Last updated: {formattedDate}
       </p>
 
