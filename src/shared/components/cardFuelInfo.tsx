@@ -4,13 +4,13 @@ import React from "react";
 
 interface FuelPrice {
   type: string;
-  price: number;
+  price: number | string;
 }
 
 interface FuelStationCardProps {
   name: string;
   city: string;
-  distance: number;
+  distance: number | string;
   mapsLink: string;
   fuelPrices: FuelPrice[];
 }
