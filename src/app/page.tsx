@@ -167,6 +167,7 @@ export default function Home() {
             }
           >
             <option value="">All</option>
+            <option value="5">5 km</option>
             <option value="10">10 km</option>
             <option value="13">13 km</option>
             <option value="20">20 km</option>

@@ -34,7 +34,7 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
       </div>
 
       <div className="mb-4 text-sm text-gray-500">
-        <p>Distance: {distance} km</p>
+        <p>Distance: {distance} km Aprox.</p>
       </div>
 
       <div className="mb-4">
@@ -42,7 +42,7 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
         <ul className="pl-4 list-disc">
           {fuelPrices.map((fuel, index) => (
             <li key={index} className="text-gray-600">
-              {fuel.type}: ${fuel.price} per liter
+              {fuel.type}: {fuel.price}€ per liter
             </li>
           ))}
         </ul>
