@@ -99,27 +99,30 @@ const SearchComponent: React.FC<SearchComponentProps> = ({
 
       {/* Irish City Search Input */}
       <div className="relative w-full max-w-sm">
-        <input
-          type="text"
-          placeholder="Enter Irish city name"
-          className={`w-full p-2 pr-10 text-sm border rounded-md shadow-sm focus:outline-none focus:ring-2 ${
-            error
-              ? "border-red-500 focus:ring-red-500"
-              : "border-gray-300 focus:ring-blue-500"
-          }`}
-          value={city}
-          onChange={handleCityChange}
-        />
+        <div className="flex items-center w-full max-w-sm space-x-2">
+          {/* Search Input */}
+          <input
+            type="text"
+            placeholder="Enter Irish city name"
+            className={`flex-grow p-2 text-sm border rounded-md shadow-sm focus:outline-none focus:ring-2 ${
+              error
+                ? "border-red-500 focus:ring-red-500"
+                : "border-gray-300 focus:ring-blue-500"
+            }`}
+            value={city}
+            onChange={handleCityChange}
+          />
 
-        {/* Delete Button - Appears only when location is set */}
-        {location.lat && location.lon && (
-          <button
-            onClick={handleDeleteLocation}
-            className="absolute inset-y-0 right-0 flex items-center p-2 mr-2 text-gray-400 bg-white rounded-full hover:text-gray-600 hover:bg-gray-100 focus:outline-none"
-          >
-            ✕
-          </button>
-        )}
+          {/* Delete Button - Appears only when location is set */}
+          {location.lat && location.lon && (
+            <button
+              onClick={handleDeleteLocation}
+              className="p-2 text-gray-400 bg-white rounded-full hover:text-gray-600 hover:bg-gray-200 focus:outline-none"
+            >
+              ✕
+            </button>
+          )}
+        </div>
 
         {/* Autocomplete suggestions dropdown */}
         {suggestions.length > 0 && !error && (
