@@ -51,6 +51,15 @@ export default function Home() {
   const [sortBy, setSortBy] = useState<string>("distance");
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
 
+  const updateDate = new Date(petrolStationsData.updateDate);
+  const formattedDate = updateDate.toLocaleString("en-GB", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+
   const setCityNameFromLatLong = async (
     latitude: number,
     longitude: number
@@ -139,6 +148,10 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center">
+      <p className="text-sm text-gray-600 mb-4">
+        Last updated: {formattedDate}
+      </p>
+
       <SearchComponent
         city={city}
         location={location}
