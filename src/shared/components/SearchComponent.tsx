@@ -20,6 +20,7 @@ const SearchComponent: React.FC<SearchComponentProps> = ({
   setLocation,
   onGetCurrentLocation,
 }) => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [suggestions, setSuggestions] = useState<any[]>([]);
   const [debouncedCity, setDebouncedCity] = useState(city);
   const [error, setError] = useState(false);
@@ -75,7 +76,7 @@ const SearchComponent: React.FC<SearchComponentProps> = ({
     }
   };
 
-  // Handle selecting a suggestion
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleSelectSuggestion = (suggestion: any) => {
     const { lat, lon } = suggestion;
     setLocation({ lat: parseFloat(lat), lon: parseFloat(lon) });
