@@ -18,7 +18,7 @@ interface Station {
   distance?: number | null;
   dieselPrice: number | null;
   unleadedPrice: number | null;
-  dateUpdated?: string;
+  dateUpdated?: string | null;
 }
 
 function haversineDistance(
