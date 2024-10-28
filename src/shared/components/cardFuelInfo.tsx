@@ -34,10 +34,6 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
       })
     : "---";
 
-  const handleFavorite = () => {
-    alert(`${name} added to favorites!`);
-  };
-
   return (
     <div className="max-w-[355px] p-4 bg-white border rounded-lg shadow-md">
       <div className="mb-2">
@@ -68,13 +64,6 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
       >
         View on Google Maps
       </a>
-
-      <button
-        onClick={handleFavorite}
-        className="mt-4 w-full px-4 py-2 text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
-      >
-        Add to Favorites
-      </button>
 
       <p className="mt-4 text-sm text-gray-500">
         Last updated: {formattedDate}
