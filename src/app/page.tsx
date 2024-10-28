@@ -153,7 +153,7 @@ export default function Home() {
         Last updated: {formattedDate}
       </p>
 
-      <h1 className="text-2xl font-bold mt-4">Cheap Irish Petrol Station</h1>
+      <h1 className="text-2xl font-bold mt-4">Cheap Irish Fuel</h1>
 
       <SearchComponent
         city={city}
