@@ -23,6 +23,7 @@ const SearchComponent: React.FC<SearchComponentProps> = ({
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [suggestions, setSuggestions] = useState<any[]>([]);
   const [error, setError] = useState(false);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const suggestionsDebouncer = useRef<any>(null);
 
   const fetchCitySuggestions = async (cityTyped: string) => {
