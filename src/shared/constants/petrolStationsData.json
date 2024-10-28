@@ -1321,7 +1321,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.669,
       "unleadedPrice": 1.729,
-      "dateUpdated": "2024-10-27T17:29:09.000Z"
+      "dateUpdated": "2024-10-28T15:44:12.000Z"
     },
     {
       "stationName": "Top Oil Portumna Service Station",
@@ -1915,7 +1915,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.689,
       "unleadedPrice": 1.769,
-      "dateUpdated": "2024-10-27T17:29:18.000Z"
+      "dateUpdated": "2024-10-28T15:44:21.000Z"
     },
     {
       "stationName": "Top Oil Berrings Service Station",
@@ -1960,7 +1960,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.699,
       "unleadedPrice": 1.769,
-      "dateUpdated": "2024-10-27T17:31:16.000Z"
+      "dateUpdated": "2024-10-28T16:40:25.000Z"
     },
     {
       "stationName": "Top Oil McDonald's Oil",
@@ -1978,7 +1978,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.659,
       "unleadedPrice": 1.749,
-      "dateUpdated": "2024-10-27T17:29:45.000Z"
+      "dateUpdated": "2024-10-28T15:44:03.000Z"
     },
     {
       "stationName": "Maxol Service Station Sallins Road",
@@ -2797,7 +2797,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.689,
       "unleadedPrice": 1.739,
-      "dateUpdated": "2024-10-27T17:29:33.000Z"
+      "dateUpdated": "2024-10-28T15:44:38.000Z"
     },
     {
       "stationName": "Knappagh Stores Filling Station",
@@ -4309,7 +4309,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.648,
       "unleadedPrice": 1.728,
-      "dateUpdated": "2024-10-27T17:30:13.000Z"
+      "dateUpdated": "2024-10-28T16:32:11.000Z"
     },
     {
       "stationName": "Applegreen",
@@ -4624,7 +4624,7 @@
       "countyName": "Co. Monaghan",
       "dieselPrice": 1.699,
       "unleadedPrice": 1.769,
-      "dateUpdated": "2024-10-16T20:00:00.000Z"
+      "dateUpdated": "2024-10-28T14:46:16.000Z"
     },
     {
       "stationName": "Applegreen",
@@ -6082,7 +6082,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.659,
       "unleadedPrice": 1.739,
-      "dateUpdated": "2024-10-27T17:30:02.000Z"
+      "dateUpdated": "2024-10-28T16:31:58.000Z"
     },
     {
       "stationName": "Cirkle Knows",
@@ -6289,7 +6289,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.589,
       "unleadedPrice": 1.625,
-      "dateUpdated": "2024-10-23T09:29:45.000Z"
+      "dateUpdated": "2024-10-28T16:08:50.000Z"
     },
     {
       "stationName": "Circle K Express Ballybrit",
@@ -7585,7 +7585,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.699,
       "unleadedPrice": 1.769,
-      "dateUpdated": "2024-10-27T17:31:09.000Z"
+      "dateUpdated": "2024-10-28T16:40:17.000Z"
     },
     {
       "stationName": "CIRCLE K BEECHWOOD",
@@ -9366,8 +9366,8 @@
       "longitude": -6.2396222,
       "countyName": "Co. Dublin",
       "dieselPrice": 1.629,
-      "unleadedPrice": 1.689,
-      "dateUpdated": "2024-10-21T15:38:33.000Z"
+      "unleadedPrice": 1.709,
+      "dateUpdated": "2024-10-28T11:33:29.000Z"
     },
     {
       "stationName": "Certa",
@@ -10717,7 +10717,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.679,
       "unleadedPrice": 1.739,
-      "dateUpdated": "2024-10-27T17:30:23.000Z"
+      "dateUpdated": "2024-10-28T16:32:25.000Z"
     },
     {
       "stationName": "MCLOIL McLoughlins",
@@ -10726,7 +10726,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.599,
       "unleadedPrice": 1.699,
-      "dateUpdated": "2024-10-27T17:29:55.000Z"
+      "dateUpdated": "2024-10-28T15:43:52.000Z"
     },
     {
       "stationName": "Top Oil Newhall Service Station",
@@ -15541,7 +15541,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.689,
       "unleadedPrice": 1.749,
-      "dateUpdated": "2024-10-27T17:30:47.000Z"
+      "dateUpdated": "2024-10-28T16:32:37.000Z"
     },
     {
       "stationName": "Top Oil Rathangan Service Station",
@@ -15859,5 +15859,5 @@
       "dateUpdated": "2024-10-15T16:11:07.000Z"
     }
   ],
-  "updateDate": "2024-10-28T12:12:33.047Z"
+  "updateDate": "2024-10-28T18:04:22.591Z"
 }
