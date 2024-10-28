@@ -1,6 +1,15 @@
 {
   "stations": [
     {
+      "stationName": null,
+      "latitude": null,
+      "longitude": null,
+      "countyName": null,
+      "dieselPrice": null,
+      "unleadedPrice": null,
+      "dateUpdated": null
+    },
+    {
       "stationName": "Morris Oil",
       "latitude": 52.629950275,
       "longitude": -6.992862225,
@@ -5138,6 +5147,1293 @@
       "dieselPrice": 1.428,
       "unleadedPrice": null,
       "dateUpdated": "2014-03-06 13:56:03"
+    },
+    {
+      "stationName": "Top",
+      "latitude": 53.353650853,
+      "longitude": -6.247465611,
+      "countyName": "Dublin",
+      "dieselPrice": 1.299,
+      "unleadedPrice": 1.359,
+      "dateUpdated": "2019-03-24 09:54:30"
+    },
+    {
+      "stationName": "Riverside Service Station",
+      "latitude": 53.239464076,
+      "longitude": -6.123499326,
+      "countyName": "Dublin",
+      "dieselPrice": 1.458,
+      "unleadedPrice": 1.558,
+      "dateUpdated": "2023-05-28 02:56:16"
+    },
+    {
+      "stationName": "Circle K Raheny",
+      "latitude": 53.380205392,
+      "longitude": -6.160883904,
+      "countyName": "Dublin",
+      "dieselPrice": 1.779,
+      "unleadedPrice": 1.559,
+      "dateUpdated": "2023-09-16 03:42:18"
+    },
+    {
+      "stationName": "AMP Wholesale Services T/A Whitechurch S",
+      "latitude": 53.288803816,
+      "longitude": -6.286454201,
+      "countyName": "Dublin",
+      "dieselPrice": 1.499,
+      "unleadedPrice": 1.569,
+      "dateUpdated": "2014-07-15 21:32:02"
+    },
+    {
+      "stationName": "Portmarnock Service Station",
+      "latitude": 53.419717745,
+      "longitude": -6.139958229,
+      "countyName": "Dublin",
+      "dieselPrice": 1.539,
+      "unleadedPrice": 1.639,
+      "dateUpdated": "2023-07-23 14:09:45"
+    },
+    {
+      "stationName": "Circle K Blessington Road ",
+      "latitude": 53.274390039,
+      "longitude": -6.410472561,
+      "countyName": "Dublin",
+      "dieselPrice": 1.688,
+      "unleadedPrice": 1.678,
+      "dateUpdated": "2024-02-19 14:58:07"
+    },
+    {
+      "stationName": "Circle K Clare Hall",
+      "latitude": 53.400430046,
+      "longitude": -6.182886509,
+      "countyName": "Dublin",
+      "dieselPrice": 1.749,
+      "unleadedPrice": 1.689,
+      "dateUpdated": "2024-03-13 09:45:22"
+    },
+    {
+      "stationName": "Clontarf Service Station",
+      "latitude": 53.366019088,
+      "longitude": -6.224451143,
+      "countyName": "Dublin",
+      "dieselPrice": 1.689,
+      "unleadedPrice": 1.689,
+      "dateUpdated": "2024-01-20 14:28:37"
+    },
+    {
+      "stationName": "M3 Mulhuddart Services",
+      "latitude": 53.407882925,
+      "longitude": -6.411818437,
+      "countyName": "D15 F5KE",
+      "dieselPrice": 1.719,
+      "unleadedPrice": 1.699,
+      "dateUpdated": "2023-12-06 13:30:03"
+    },
+    {
+      "stationName": "Nevin Circle K",
+      "latitude": 53.382050469,
+      "longitude": -6.266240399,
+      "countyName": "Dublin",
+      "dieselPrice": 1.739,
+      "unleadedPrice": 1.709,
+      "dateUpdated": "2024-06-02 16:00:55"
+    },
+    {
+      "stationName": "Campus ",
+      "latitude": 53.357108746,
+      "longitude": -6.232557893,
+      "countyName": "Dublin",
+      "dieselPrice": 1.648,
+      "unleadedPrice": 1.718,
+      "dateUpdated": "2024-06-28 22:21:31"
+    },
+    {
+      "stationName": "Circle K Dublin Port",
+      "latitude": 53.353969439,
+      "longitude": -6.213699281,
+      "countyName": "Dublin",
+      "dieselPrice": 1.658,
+      "unleadedPrice": 1.718,
+      "dateUpdated": "2024-06-28 14:53:51"
+    },
+    {
+      "stationName": "Tesco Dundrum Town Centre",
+      "latitude": 53.285308788,
+      "longitude": -6.23978556,
+      "countyName": "Dublin",
+      "dieselPrice": 1.659,
+      "unleadedPrice": 1.719,
+      "dateUpdated": "2024-06-30 18:33:13"
+    },
+    {
+      "stationName": "Ashtown Topaz",
+      "latitude": 53.377968934,
+      "longitude": -6.351417376,
+      "countyName": "Dublin",
+      "dieselPrice": 1.729,
+      "unleadedPrice": 1.719,
+      "dateUpdated": "2024-03-15 19:37:15"
+    },
+    {
+      "stationName": "Goatstown Circle K",
+      "latitude": 53.292720363,
+      "longitude": -6.230669618,
+      "countyName": "Dublin",
+      "dieselPrice": 1.658,
+      "unleadedPrice": 1.728,
+      "dateUpdated": "2024-06-30 22:49:24"
+    },
+    {
+      "stationName": "Palmerstown S/Stn",
+      "latitude": 53.353996655,
+      "longitude": -6.367156506,
+      "countyName": "Dublin",
+      "dieselPrice": 1.658,
+      "unleadedPrice": 1.728,
+      "dateUpdated": "2024-06-28 15:06:22"
+    },
+    {
+      "stationName": "Circle K Parkway East",
+      "latitude": 53.356180265,
+      "longitude": -6.375439167,
+      "countyName": "Dublin",
+      "dieselPrice": 1.658,
+      "unleadedPrice": 1.728,
+      "dateUpdated": "2024-06-28 15:05:43"
+    },
+    {
+      "stationName": "Kinsealy Service Station",
+      "latitude": 53.41930285,
+      "longitude": -6.176741123,
+      "countyName": "Dublin",
+      "dieselPrice": 1.748,
+      "unleadedPrice": 1.728,
+      "dateUpdated": "2023-11-29 13:56:39"
+    },
+    {
+      "stationName": "Circle K Donaghmede",
+      "latitude": 53.395780888,
+      "longitude": -6.161555188,
+      "countyName": "Dublin",
+      "dieselPrice": 1.758,
+      "unleadedPrice": 1.728,
+      "dateUpdated": "2023-11-26 16:28:25"
+    },
+    {
+      "stationName": "Circle K Ballyfermot",
+      "latitude": 53.327986023,
+      "longitude": -6.344071562,
+      "countyName": "Dublin",
+      "dieselPrice": 1.659,
+      "unleadedPrice": 1.729,
+      "dateUpdated": "2024-06-30 22:50:48"
+    },
+    {
+      "stationName": "GO kylemore ",
+      "latitude": 53.328899524,
+      "longitude": -6.344840527,
+      "countyName": "Dublin",
+      "dieselPrice": 1.649,
+      "unleadedPrice": 1.729,
+      "dateUpdated": "2024-06-29 10:43:07"
+    },
+    {
+      "stationName": "Newtown Service Station",
+      "latitude": 53.395914364,
+      "longitude": -6.188491203,
+      "countyName": "Dublin",
+      "dieselPrice": 1.719,
+      "unleadedPrice": 1.729,
+      "dateUpdated": "2024-04-01 00:20:32"
+    },
+    {
+      "stationName": "Circle K Parkway West ",
+      "latitude": 53.352895202,
+      "longitude": -6.364066601,
+      "countyName": "Dublin",
+      "dieselPrice": 1.658,
+      "unleadedPrice": 1.738,
+      "dateUpdated": "2024-06-30 22:53:02"
+    },
+    {
+      "stationName": "Circle K Glenview",
+      "latitude": 53.28685777,
+      "longitude": -6.346069261,
+      "countyName": "Dublin",
+      "dieselPrice": 1.668,
+      "unleadedPrice": 1.738,
+      "dateUpdated": "2024-06-30 22:52:44"
+    },
+    {
+      "stationName": "Cherry Orchard Service Station ",
+      "latitude": 53.343711052,
+      "longitude": -6.370589733,
+      "countyName": "Dublin",
+      "dieselPrice": 1.668,
+      "unleadedPrice": 1.738,
+      "dateUpdated": "2024-06-28 22:26:48"
+    },
+    {
+      "stationName": "Kilmainham Circle K",
+      "latitude": 53.341418773,
+      "longitude": -6.308130952,
+      "countyName": "Dublin",
+      "dieselPrice": 1.658,
+      "unleadedPrice": 1.738,
+      "dateUpdated": "2024-06-29 10:42:34"
+    },
+    {
+      "stationName": "Circle K Kilnamanagh ",
+      "latitude": 53.297814829,
+      "longitude": -6.363869207,
+      "countyName": "Dublin",
+      "dieselPrice": 1.658,
+      "unleadedPrice": 1.738,
+      "dateUpdated": "2024-06-28 15:04:45"
+    },
+    {
+      "stationName": "GreatGas 24/7 Ballymount",
+      "latitude": 53.310999671,
+      "longitude": -6.355150938,
+      "countyName": "Dublin",
+      "dieselPrice": 1.658,
+      "unleadedPrice": 1.738,
+      "dateUpdated": "2024-06-26 15:30:50"
+    },
+    {
+      "stationName": "Laurels Service station",
+      "latitude": 53.321004775,
+      "longitude": -6.39172554,
+      "countyName": "Dublin",
+      "dieselPrice": 1.658,
+      "unleadedPrice": 1.738,
+      "dateUpdated": "2024-06-24 13:02:28"
+    },
+    {
+      "stationName": "Tesco",
+      "latitude": 53.383769917,
+      "longitude": -6.29614234,
+      "countyName": "Dublin",
+      "dieselPrice": 1.658,
+      "unleadedPrice": 1.738,
+      "dateUpdated": "2024-06-23 11:08:52"
+    },
+    {
+      "stationName": "Ushers Island Service Station",
+      "latitude": 53.34543374,
+      "longitude": -6.277879548,
+      "countyName": "Dublin",
+      "dieselPrice": 1.659,
+      "unleadedPrice": 1.739,
+      "dateUpdated": "2024-06-30 22:51:25"
+    },
+    {
+      "stationName": "Circle K Dundrum",
+      "latitude": 53.294367123,
+      "longitude": -6.246551272,
+      "countyName": "Dublin",
+      "dieselPrice": 1.669,
+      "unleadedPrice": 1.739,
+      "dateUpdated": "2024-06-27 11:18:48"
+    },
+    {
+      "stationName": "Mount Brown Emo",
+      "latitude": 53.341767896,
+      "longitude": -6.297306467,
+      "countyName": "Dublin",
+      "dieselPrice": 1.659,
+      "unleadedPrice": 1.739,
+      "dateUpdated": "2024-06-27 00:10:23"
+    },
+    {
+      "stationName": "Circle K Kennelsfort ",
+      "latitude": 53.349629099,
+      "longitude": -6.377606392,
+      "countyName": "Dublin",
+      "dieselPrice": 1.659,
+      "unleadedPrice": 1.739,
+      "dateUpdated": "2024-06-26 15:28:26"
+    },
+    {
+      "stationName": "GreatGas express 24/7 Old Airport Road",
+      "latitude": 53.414436816,
+      "longitude": -6.239223182,
+      "countyName": "Dublin 9",
+      "dieselPrice": 1.659,
+      "unleadedPrice": 1.739,
+      "dateUpdated": "2024-06-22 14:17:31"
+    },
+    {
+      "stationName": "Circle K Coolmine",
+      "latitude": 53.385261024,
+      "longitude": -6.396570843,
+      "countyName": "Dublin",
+      "dieselPrice": 1.678,
+      "unleadedPrice": 1.748,
+      "dateUpdated": "2024-06-30 22:53:32"
+    },
+    {
+      "stationName": "Circle K Donnybrook",
+      "latitude": 53.32058012,
+      "longitude": -6.234399792,
+      "countyName": "Dublin",
+      "dieselPrice": 1.678,
+      "unleadedPrice": 1.748,
+      "dateUpdated": "2024-06-27 00:21:19"
+    },
+    {
+      "stationName": "Templeville Circle K",
+      "latitude": 53.304469378,
+      "longitude": -6.31392949,
+      "countyName": "Dublin",
+      "dieselPrice": 1.668,
+      "unleadedPrice": 1.748,
+      "dateUpdated": "2024-06-28 22:28:24"
+    },
+    {
+      "stationName": "Circle K Balrothery ",
+      "latitude": 53.289394996,
+      "longitude": -6.335968621,
+      "countyName": "Dublin",
+      "dieselPrice": 1.668,
+      "unleadedPrice": 1.748,
+      "dateUpdated": "2024-06-28 15:04:07"
+    },
+    {
+      "stationName": "Circle K Glasnevin",
+      "latitude": 53.371065829,
+      "longitude": -6.281261674,
+      "countyName": "Dublin",
+      "dieselPrice": 1.678,
+      "unleadedPrice": 1.748,
+      "dateUpdated": "2024-06-28 14:46:40"
+    },
+    {
+      "stationName": "Belmont Circle K",
+      "latitude": 53.320030646,
+      "longitude": -6.243731976,
+      "countyName": "Dublin",
+      "dieselPrice": 1.668,
+      "unleadedPrice": 1.748,
+      "dateUpdated": "2024-06-28 02:51:00"
+    },
+    {
+      "stationName": "Circle K Finglas",
+      "latitude": 53.399515531,
+      "longitude": -6.307032108,
+      "countyName": "Dublin",
+      "dieselPrice": 1.678,
+      "unleadedPrice": 1.748,
+      "dateUpdated": "2024-06-27 21:59:10"
+    },
+    {
+      "stationName": "Applegreen",
+      "latitude": 53.274285669,
+      "longitude": -6.259176135,
+      "countyName": "Dublin",
+      "dieselPrice": 1.668,
+      "unleadedPrice": 1.748,
+      "dateUpdated": "2024-06-26 23:59:10"
+    },
+    {
+      "stationName": "Templeogue Maxol",
+      "latitude": 53.298658633,
+      "longitude": -6.303403953,
+      "countyName": "Dublin",
+      "dieselPrice": 1.659,
+      "unleadedPrice": 1.749,
+      "dateUpdated": "2024-06-30 22:54:22"
+    },
+    {
+      "stationName": "Fortfield Road Circle K",
+      "latitude": 53.310519761,
+      "longitude": -6.302525997,
+      "countyName": "Dublin",
+      "dieselPrice": 1.679,
+      "unleadedPrice": 1.749,
+      "dateUpdated": "2024-06-30 22:51:54"
+    },
+    {
+      "stationName": "Harold&#039;s Cross Maxol",
+      "latitude": 53.320107552,
+      "longitude": -6.278589964,
+      "countyName": "Dublin",
+      "dieselPrice": 1.669,
+      "unleadedPrice": 1.749,
+      "dateUpdated": "2024-06-30 10:23:13"
+    },
+    {
+      "stationName": "Kimmage Road Circle K",
+      "latitude": 53.315612437,
+      "longitude": -6.294264793,
+      "countyName": "Dublin 12",
+      "dieselPrice": 1.699,
+      "unleadedPrice": 1.749,
+      "dateUpdated": "2024-06-30 09:25:25"
+    },
+    {
+      "stationName": "KCR Londis",
+      "latitude": 53.311893881,
+      "longitude": -6.299580932,
+      "countyName": "Dublin",
+      "dieselPrice": 1.699,
+      "unleadedPrice": 1.749,
+      "dateUpdated": "2024-06-30 09:25:16"
+    },
+    {
+      "stationName": "Ballymount Service Station ",
+      "latitude": 53.316200491,
+      "longitude": -6.343718073,
+      "countyName": "Dublin",
+      "dieselPrice": 1.659,
+      "unleadedPrice": 1.749,
+      "dateUpdated": "2024-06-28 15:02:58"
+    },
+    {
+      "stationName": "Circle K Nutgrove ",
+      "latitude": 53.29068036,
+      "longitude": -6.268507933,
+      "countyName": "Dublin",
+      "dieselPrice": 1.669,
+      "unleadedPrice": 1.749,
+      "dateUpdated": "2024-06-28 02:50:17"
+    },
+    {
+      "stationName": "Maxol Filling Station",
+      "latitude": 53.3664266,
+      "longitude": -6.24956866,
+      "countyName": "Dublin",
+      "dieselPrice": 1.679,
+      "unleadedPrice": 1.769,
+      "dateUpdated": "2024-06-23 21:39:32"
+    },
+    {
+      "stationName": "Maxol Cromwellsfort Road",
+      "latitude": 53.316835022,
+      "longitude": -6.319713976,
+      "countyName": "Dublin",
+      "dieselPrice": 1.659,
+      "unleadedPrice": 1.749,
+      "dateUpdated": "2024-06-27 00:09:40"
+    },
+    {
+      "stationName": "Ringsend Service Station",
+      "latitude": 53.341751592,
+      "longitude": -6.235025042,
+      "countyName": "Dublin",
+      "dieselPrice": 1.659,
+      "unleadedPrice": 1.749,
+      "dateUpdated": "2024-06-27 00:08:55"
+    },
+    {
+      "stationName": "Castleknock Service Station",
+      "latitude": 53.373063529,
+      "longitude": -6.361914643,
+      "countyName": "Dublin",
+      "dieselPrice": 1.659,
+      "unleadedPrice": 1.749,
+      "dateUpdated": "2024-06-22 14:13:41"
+    },
+    {
+      "stationName": "Circle K Cabra",
+      "latitude": 53.37849729,
+      "longitude": -6.378778473,
+      "countyName": "Dublin",
+      "dieselPrice": 1.699,
+      "unleadedPrice": 1.749,
+      "dateUpdated": "2024-06-20 23:01:27"
+    },
+    {
+      "stationName": "Brady&#039;s Garage",
+      "latitude": 53.378176577,
+      "longitude": -6.349530879,
+      "countyName": "Dublin",
+      "dieselPrice": 1.749,
+      "unleadedPrice": 1.749,
+      "dateUpdated": "2024-02-02 16:55:47"
+    },
+    {
+      "stationName": "Circle K Clonshaugh",
+      "latitude": 53.410718817,
+      "longitude": -6.217454908,
+      "countyName": "Dublin",
+      "dieselPrice": 1.759,
+      "unleadedPrice": 1.749,
+      "dateUpdated": "2023-11-26 16:27:38"
+    },
+    {
+      "stationName": "Butterfield Circle K",
+      "latitude": 53.295442558,
+      "longitude": -6.298819184,
+      "countyName": "Dublin",
+      "dieselPrice": 1.668,
+      "unleadedPrice": 1.758,
+      "dateUpdated": "2024-06-30 04:08:21"
+    },
+    {
+      "stationName": "Pottery Service Station",
+      "latitude": 53.27918978,
+      "longitude": -6.157260523,
+      "countyName": "Dublin",
+      "dieselPrice": 1.658,
+      "unleadedPrice": 1.758,
+      "dateUpdated": "2024-06-27 11:52:17"
+    },
+    {
+      "stationName": "Circle K Dublin Airport",
+      "latitude": 53.428756764,
+      "longitude": -6.234531932,
+      "countyName": "Dublin",
+      "dieselPrice": 1.668,
+      "unleadedPrice": 1.758,
+      "dateUpdated": "2024-06-26 15:31:58"
+    },
+    {
+      "stationName": "Parnell Road Applegreen",
+      "latitude": 53.329723987,
+      "longitude": -6.280224425,
+      "countyName": "Dublin",
+      "dieselPrice": 1.668,
+      "unleadedPrice": 1.758,
+      "dateUpdated": "2024-06-23 11:08:16"
+    },
+    {
+      "stationName": "Crumlin Applegreen",
+      "latitude": 53.316762026,
+      "longitude": -6.316224039,
+      "countyName": "Dublin",
+      "dieselPrice": 1.678,
+      "unleadedPrice": 1.758,
+      "dateUpdated": "2024-06-20 08:17:41"
+    },
+    {
+      "stationName": "Applegreen Inchicore",
+      "latitude": 53.335633599,
+      "longitude": -6.327366183,
+      "countyName": "Dublin",
+      "dieselPrice": 1.678,
+      "unleadedPrice": 1.758,
+      "dateUpdated": "2024-06-14 18:01:15"
+    },
+    {
+      "stationName": "Crossland Service Station",
+      "latitude": 53.325731013,
+      "longitude": -6.394957602,
+      "countyName": "Dublin",
+      "dieselPrice": 1.728,
+      "unleadedPrice": 1.758,
+      "dateUpdated": "2023-09-01 23:43:21"
+    },
+    {
+      "stationName": "Maxol",
+      "latitude": 53.299958687,
+      "longitude": -6.348607429,
+      "countyName": "Dublin",
+      "dieselPrice": 1.709,
+      "unleadedPrice": 1.779,
+      "dateUpdated": "2024-06-06 20:44:25"
+    },
+    {
+      "stationName": "Maxol Greenhills Road",
+      "latitude": 53.306826446,
+      "longitude": -6.348466873,
+      "countyName": "Dublin",
+      "dieselPrice": 1.669,
+      "unleadedPrice": 1.759,
+      "dateUpdated": "2024-06-21 14:31:26"
+    },
+    {
+      "stationName": "Violet Hill Topaz",
+      "latitude": 53.372957535,
+      "longitude": -6.284701468,
+      "countyName": "Dublin",
+      "dieselPrice": 1.659,
+      "unleadedPrice": 1.759,
+      "dateUpdated": "2024-06-19 16:34:35"
+    },
+    {
+      "stationName": "Sandyford Maxol",
+      "latitude": 53.27282913,
+      "longitude": -6.227856343,
+      "countyName": "Dublin",
+      "dieselPrice": 1.669,
+      "unleadedPrice": 1.759,
+      "dateUpdated": "2024-06-17 15:04:48"
+    },
+    {
+      "stationName": "Blanchardstown Service Station",
+      "latitude": 53.414082583,
+      "longitude": -6.365074238,
+      "countyName": "Dublin",
+      "dieselPrice": 1.939,
+      "unleadedPrice": 1.759,
+      "dateUpdated": "2022-11-27 23:40:12"
+    },
+    {
+      "stationName": "Circle K Round Tower",
+      "latitude": 53.314960973,
+      "longitude": -6.383851827,
+      "countyName": "Dublin",
+      "dieselPrice": 1.698,
+      "unleadedPrice": 1.768,
+      "dateUpdated": "2024-06-30 18:21:44"
+    },
+    {
+      "stationName": "Circle K Sandymount",
+      "latitude": 53.32424601,
+      "longitude": -6.207277567,
+      "countyName": "Dublin",
+      "dieselPrice": 1.678,
+      "unleadedPrice": 1.768,
+      "dateUpdated": "2024-06-23 21:39:03"
+    },
+    {
+      "stationName": "St Peters Road Circle K",
+      "latitude": 53.310320564,
+      "longitude": -6.325491508,
+      "countyName": "Dublin",
+      "dieselPrice": 1.678,
+      "unleadedPrice": 1.768,
+      "dateUpdated": "2024-06-18 12:09:11"
+    },
+    {
+      "stationName": "Circle K Three Rock",
+      "latitude": 53.289501033,
+      "longitude": -6.283267227,
+      "countyName": "Dublin",
+      "dieselPrice": 1.678,
+      "unleadedPrice": 1.768,
+      "dateUpdated": "2024-06-14 23:36:46"
+    },
+    {
+      "stationName": "Tesco Clarehall",
+      "latitude": 53.400913457,
+      "longitude": -6.181587539,
+      "countyName": "Dublin",
+      "dieselPrice": 1.728,
+      "unleadedPrice": 1.768,
+      "dateUpdated": "2024-04-03 22:33:39"
+    },
+    {
+      "stationName": "Circle K Rathgar Road",
+      "latitude": 53.320966323,
+      "longitude": -6.268043518,
+      "countyName": "Dublin",
+      "dieselPrice": 1.689,
+      "unleadedPrice": 1.769,
+      "dateUpdated": "2024-06-27 13:13:07"
+    },
+    {
+      "stationName": "Richmond Service Station",
+      "latitude": 53.362555,
+      "longitude": -6.2429825,
+      "countyName": "Dublin",
+      "dieselPrice": 1.639,
+      "unleadedPrice": 1.769,
+      "dateUpdated": "2024-06-28 17:14:13"
+    },
+    {
+      "stationName": "Applegreen Mount Merrion",
+      "latitude": 53.297927332,
+      "longitude": -6.203842163,
+      "countyName": "Dublin",
+      "dieselPrice": 1.698,
+      "unleadedPrice": 1.778,
+      "dateUpdated": "2024-06-30 18:54:55"
+    },
+    {
+      "stationName": "Circle K Mount Merrion",
+      "latitude": 53.295445298,
+      "longitude": -6.204300864,
+      "countyName": "Dublin",
+      "dieselPrice": 1.698,
+      "unleadedPrice": 1.778,
+      "dateUpdated": "2024-06-30 18:54:50"
+    },
+    {
+      "stationName": "Circle K Rochestown Avenue",
+      "latitude": 53.270154268,
+      "longitude": -6.141370678,
+      "countyName": "Dublin",
+      "dieselPrice": 1.668,
+      "unleadedPrice": 1.778,
+      "dateUpdated": "2024-06-27 13:12:28"
+    },
+    {
+      "stationName": "Cabinteely Topaz",
+      "latitude": 53.256229723,
+      "longitude": -6.146261017,
+      "countyName": "Dublin",
+      "dieselPrice": 1.698,
+      "unleadedPrice": 1.778,
+      "dateUpdated": "2024-06-27 12:05:12"
+    },
+    {
+      "stationName": "Eglinton Topaz",
+      "latitude": 53.254828342,
+      "longitude": -6.144568556,
+      "countyName": "Dublin",
+      "dieselPrice": 1.718,
+      "unleadedPrice": 1.778,
+      "dateUpdated": "2024-06-27 12:05:48"
+    },
+    {
+      "stationName": "Applegreen Booterstown ",
+      "latitude": 53.311897086,
+      "longitude": -6.201363802,
+      "countyName": "Dublin",
+      "dieselPrice": 1.698,
+      "unleadedPrice": 1.778,
+      "dateUpdated": "2024-06-28 13:13:07"
+    },
+    {
+      "stationName": "Ballybrack Service Station",
+      "latitude": 53.252505297,
+      "longitude": -6.123740673,
+      "countyName": "Dublin",
+      "dieselPrice": 1.698,
+      "unleadedPrice": 1.778,
+      "dateUpdated": "2024-06-10 14:46:22"
+    },
+    {
+      "stationName": "Knocklyon Service Station",
+      "latitude": 53.288510721,
+      "longitude": -6.310779709,
+      "countyName": "Dublin",
+      "dieselPrice": 1.698,
+      "unleadedPrice": 1.778,
+      "dateUpdated": "2024-06-08 20:11:15"
+    },
+    {
+      "stationName": "Shankill Service Station",
+      "latitude": 53.237174096,
+      "longitude": -6.126744747,
+      "countyName": "Dublin",
+      "dieselPrice": 1.698,
+      "unleadedPrice": 1.778,
+      "dateUpdated": "2024-06-05 16:02:23"
+    },
+    {
+      "stationName": "Circle K Greenhills ",
+      "latitude": 53.29583219,
+      "longitude": -6.354316268,
+      "countyName": "Dublin",
+      "dieselPrice": 1.698,
+      "unleadedPrice": 1.778,
+      "dateUpdated": "2024-05-25 23:51:55"
+    },
+    {
+      "stationName": "Ballyboden Circle K",
+      "latitude": 53.284261457,
+      "longitude": -6.295133435,
+      "countyName": "Dublin",
+      "dieselPrice": 1.709,
+      "unleadedPrice": 1.779,
+      "dateUpdated": "2024-06-29 09:50:30"
+    },
+    {
+      "stationName": "Ballinteer Maxol",
+      "latitude": 53.27566315,
+      "longitude": -6.251800472,
+      "countyName": "Dublin",
+      "dieselPrice": 1.699,
+      "unleadedPrice": 1.779,
+      "dateUpdated": "2024-06-19 16:14:00"
+    },
+    {
+      "stationName": "Circle K Maypark",
+      "latitude": 53.376169344,
+      "longitude": -6.218167142,
+      "countyName": "Dublin",
+      "dieselPrice": 1.689,
+      "unleadedPrice": 1.779,
+      "dateUpdated": "2024-06-18 02:24:01"
+    },
+    {
+      "stationName": "Circle K Beaumont ",
+      "latitude": 53.385524734,
+      "longitude": -6.233919106,
+      "countyName": "Dublin",
+      "dieselPrice": 1.679,
+      "unleadedPrice": 1.779,
+      "dateUpdated": "2024-06-18 02:23:31"
+    },
+    {
+      "stationName": "Circle K Belgard ",
+      "latitude": 53.297773441,
+      "longitude": -6.372156143,
+      "countyName": "Dublin",
+      "dieselPrice": 1.699,
+      "unleadedPrice": 1.779,
+      "dateUpdated": "2024-06-18 02:21:30"
+    },
+    {
+      "stationName": "Raheny Service Station",
+      "latitude": 53.376077923,
+      "longitude": -6.192971046,
+      "countyName": "Dublin",
+      "dieselPrice": 1.769,
+      "unleadedPrice": 1.779,
+      "dateUpdated": "2024-05-06 04:12:34"
+    },
+    {
+      "stationName": "Killester Service Station",
+      "latitude": 53.373433893,
+      "longitude": -6.2004143,
+      "countyName": "Dublin",
+      "dieselPrice": 1.708,
+      "unleadedPrice": 1.779,
+      "dateUpdated": "2024-06-06 20:44:48"
+    },
+    {
+      "stationName": "Circle K Autobahn ",
+      "latitude": 53.389766256,
+      "longitude": -6.272585514,
+      "countyName": "Dublin",
+      "dieselPrice": 1.719,
+      "unleadedPrice": 1.779,
+      "dateUpdated": "2024-05-26 21:50:06"
+    },
+    {
+      "stationName": "Kilbarrack Shopping Centre ",
+      "latitude": 53.388895399,
+      "longitude": -6.168372631,
+      "countyName": "Dublin",
+      "dieselPrice": 1.759,
+      "unleadedPrice": 1.779,
+      "dateUpdated": "2024-04-27 01:59:13"
+    },
+    {
+      "stationName": "Spawell Service Station",
+      "latitude": 53.291610631,
+      "longitude": -6.326704193,
+      "countyName": "Dublin",
+      "dieselPrice": 1.687,
+      "unleadedPrice": 1.787,
+      "dateUpdated": "2024-06-29 10:42:04"
+    },
+    {
+      "stationName": "Circle K Ninth Lock ",
+      "latitude": 53.329524194,
+      "longitude": -6.398109173,
+      "countyName": "Dublin",
+      "dieselPrice": 1.758,
+      "unleadedPrice": 1.788,
+      "dateUpdated": "2024-04-21 03:46:51"
+    },
+    {
+      "stationName": "Newpark Service Station",
+      "latitude": 53.2888519,
+      "longitude": -6.1754847,
+      "countyName": "Dublin",
+      "dieselPrice": 1.699,
+      "unleadedPrice": 1.789,
+      "dateUpdated": "2024-06-27 11:46:12"
+    },
+    {
+      "stationName": "Lucan Service Station",
+      "latitude": 53.358696721,
+      "longitude": -6.41818285,
+      "countyName": "Co Dublin",
+      "dieselPrice": 1.689,
+      "unleadedPrice": 1.789,
+      "dateUpdated": "2024-06-26 15:30:15"
+    },
+    {
+      "stationName": "Rathfarnham Texaco ",
+      "latitude": 53.30092143,
+      "longitude": -6.284443645,
+      "countyName": "Dublin",
+      "dieselPrice": 1.689,
+      "unleadedPrice": 1.789,
+      "dateUpdated": "2024-06-19 18:00:13"
+    },
+    {
+      "stationName": "Navan Road Filling Station",
+      "latitude": 53.366299,
+      "longitude": -6.31205,
+      "countyName": "Dublin",
+      "dieselPrice": 1.729,
+      "unleadedPrice": 1.789,
+      "dateUpdated": "2024-06-03 15:43:07"
+    },
+    {
+      "stationName": "Circle K Mulhuddart ",
+      "latitude": 53.402000998,
+      "longitude": -6.397188636,
+      "countyName": "Dublin",
+      "dieselPrice": 1.739,
+      "unleadedPrice": 1.789,
+      "dateUpdated": "2024-05-13 23:56:24"
+    },
+    {
+      "stationName": "Texaco",
+      "latitude": 53.288849232,
+      "longitude": -6.204292953,
+      "countyName": "Dublin",
+      "dieselPrice": 1.717,
+      "unleadedPrice": 1.797,
+      "dateUpdated": "2024-06-28 13:23:59"
+    },
+    {
+      "stationName": "Abbey Service Station",
+      "latitude": 53.282788745,
+      "longitude": -6.158709475,
+      "countyName": "Dublin",
+      "dieselPrice": 1.718,
+      "unleadedPrice": 1.798,
+      "dateUpdated": "2024-06-28 13:23:20"
+    },
+    {
+      "stationName": "Rochestown Service Station",
+      "latitude": 53.270892921,
+      "longitude": -6.143932343,
+      "countyName": "Dublin",
+      "dieselPrice": 1.718,
+      "unleadedPrice": 1.798,
+      "dateUpdated": "2024-06-27 11:59:49"
+    },
+    {
+      "stationName": "Taylors Lane Circle K",
+      "latitude": 53.281412897,
+      "longitude": -6.28978014,
+      "countyName": "Dublin",
+      "dieselPrice": 1.698,
+      "unleadedPrice": 1.798,
+      "dateUpdated": "2024-06-07 23:44:27"
+    },
+    {
+      "stationName": "Circle K Newlands",
+      "latitude": 53.314493071,
+      "longitude": -6.393860579,
+      "countyName": "Dublin",
+      "dieselPrice": 1.738,
+      "unleadedPrice": 1.798,
+      "dateUpdated": "2024-05-19 21:28:51"
+    },
+    {
+      "stationName": "Clonkeen Service Station",
+      "latitude": 53.268446123,
+      "longitude": -6.158682601,
+      "countyName": "Dublin",
+      "dieselPrice": 1.729,
+      "unleadedPrice": 1.799,
+      "dateUpdated": "2024-06-30 09:02:44"
+    },
+    {
+      "stationName": "Foxrock Motor Co.",
+      "latitude": 53.266403732,
+      "longitude": -6.184281002,
+      "countyName": "Dublin",
+      "dieselPrice": 1.729,
+      "unleadedPrice": 1.799,
+      "dateUpdated": "2024-06-30 07:56:10"
+    },
+    {
+      "stationName": "Maxol Dolphins Barn",
+      "latitude": 53.331977267,
+      "longitude": -6.294454535,
+      "countyName": "Dublin",
+      "dieselPrice": 1.779,
+      "unleadedPrice": 1.799,
+      "dateUpdated": "2024-06-09 09:43:21"
+    },
+    {
+      "stationName": "Cornelscourt Garage",
+      "latitude": 53.26874216,
+      "longitude": -6.166352928,
+      "countyName": "Dublin",
+      "dieselPrice": 1.699,
+      "unleadedPrice": 1.799,
+      "dateUpdated": "2024-06-09 07:19:27"
+    },
+    {
+      "stationName": "Huntsman Service Station",
+      "latitude": 53.32379178,
+      "longitude": -6.350702732,
+      "countyName": "Dublin",
+      "dieselPrice": 1.709,
+      "unleadedPrice": 1.799,
+      "dateUpdated": "2024-06-16 14:27:48"
+    },
+    {
+      "stationName": "Circle K Artane ",
+      "latitude": 53.382012105,
+      "longitude": -6.208094867,
+      "countyName": "Dublin",
+      "dieselPrice": 1.759,
+      "unleadedPrice": 1.799,
+      "dateUpdated": "2024-04-15 15:18:05"
+    },
+    {
+      "stationName": "Applegreen Clonskeagh",
+      "latitude": 53.31374515,
+      "longitude": -6.23828356,
+      "countyName": "Dublin",
+      "dieselPrice": 1.718,
+      "unleadedPrice": 1.808,
+      "dateUpdated": "2024-05-31 10:29:13"
+    },
+    {
+      "stationName": "Grange Service Station",
+      "latitude": 53.39703162,
+      "longitude": -6.145414617,
+      "countyName": "Dublin",
+      "dieselPrice": 1.728,
+      "unleadedPrice": 1.808,
+      "dateUpdated": "2024-02-27 14:06:28"
+    },
+    {
+      "stationName": "Cunninghams",
+      "latitude": 53.383350765,
+      "longitude": -6.417700052,
+      "countyName": "Dublin",
+      "dieselPrice": 1.778,
+      "unleadedPrice": 1.808,
+      "dateUpdated": "2024-04-27 01:55:31"
+    },
+    {
+      "stationName": "Circle K Elm Park ",
+      "latitude": 53.318300659,
+      "longitude": -6.210858822,
+      "countyName": "Dublin",
+      "dieselPrice": 1.719,
+      "unleadedPrice": 1.809,
+      "dateUpdated": "2024-06-28 13:13:18"
+    },
+    {
+      "stationName": "Hollystown Service Station",
+      "latitude": 53.428723532,
+      "longitude": -6.374501776,
+      "countyName": "Dublin West",
+      "dieselPrice": 1.759,
+      "unleadedPrice": 1.809,
+      "dateUpdated": "2024-05-08 14:43:17"
+    },
+    {
+      "stationName": "Circle K Omni",
+      "latitude": 53.393397969,
+      "longitude": -6.246806892,
+      "countyName": "Dublin",
+      "dieselPrice": 1.759,
+      "unleadedPrice": 1.809,
+      "dateUpdated": "2024-05-08 14:42:45"
+    },
+    {
+      "stationName": "Circle K Hartstown ",
+      "latitude": 53.392948882,
+      "longitude": -6.419161171,
+      "countyName": "Dublin",
+      "dieselPrice": 1.769,
+      "unleadedPrice": 1.809,
+      "dateUpdated": "2024-04-25 15:39:08"
+    },
+    {
+      "stationName": "Circle K Citywest",
+      "latitude": 53.29508025,
+      "longitude": -6.430735588,
+      "countyName": "Dublin",
+      "dieselPrice": 1.768,
+      "unleadedPrice": 1.818,
+      "dateUpdated": "2024-05-01 16:34:18"
+    },
+    {
+      "stationName": "Texaco Merrion Gates ",
+      "latitude": 53.31437667,
+      "longitude": -6.20265,
+      "countyName": "Dublin",
+      "dieselPrice": 1.729,
+      "unleadedPrice": 1.819,
+      "dateUpdated": "2024-06-28 13:13:12"
+    },
+    {
+      "stationName": "Tractamotors Ltd",
+      "latitude": 53.390648543,
+      "longitude": -6.3814044,
+      "countyName": "Dublin",
+      "dieselPrice": 1.739,
+      "unleadedPrice": 1.819,
+      "dateUpdated": "2024-06-22 13:41:20"
+    },
+    {
+      "stationName": "Ciardan Limited",
+      "latitude": 53.391402669,
+      "longitude": -6.124493688,
+      "countyName": "Dublin",
+      "dieselPrice": 1.769,
+      "unleadedPrice": 1.819,
+      "dateUpdated": "2024-05-05 21:53:28"
+    },
+    {
+      "stationName": "Castle Service Station ",
+      "latitude": 53.384101782,
+      "longitude": -6.214394124,
+      "countyName": "Dublin",
+      "dieselPrice": 1.789,
+      "unleadedPrice": 1.819,
+      "dateUpdated": "2023-09-12 14:01:38"
+    },
+    {
+      "stationName": "Sarsfield Service Station",
+      "latitude": 53.34293263,
+      "longitude": -6.333957065,
+      "countyName": "Dublin 10",
+      "dieselPrice": 1.738,
+      "unleadedPrice": 1.828,
+      "dateUpdated": "2024-05-16 03:26:34"
+    },
+    {
+      "stationName": "Circle K The Square",
+      "latitude": 53.285164511,
+      "longitude": -6.375179566,
+      "countyName": "Dublin",
+      "dieselPrice": 1.738,
+      "unleadedPrice": 1.828,
+      "dateUpdated": "2024-05-10 18:13:55"
+    },
+    {
+      "stationName": "Crumlin Texaco",
+      "latitude": 53.327471757,
+      "longitude": -6.308083333,
+      "countyName": "Dublin",
+      "dieselPrice": 1.739,
+      "unleadedPrice": 1.829,
+      "dateUpdated": "2024-05-19 23:50:00"
+    },
+    {
+      "stationName": "Circle K Cranley",
+      "latitude": 53.321373272,
+      "longitude": -6.357784867,
+      "countyName": "Dublin",
+      "dieselPrice": 1.749,
+      "unleadedPrice": 1.829,
+      "dateUpdated": "2024-05-08 14:46:34"
+    },
+    {
+      "stationName": "Circle K Ballymun",
+      "latitude": 53.403093784,
+      "longitude": -6.264616882,
+      "countyName": "Dublin",
+      "dieselPrice": 1.789,
+      "unleadedPrice": 1.829,
+      "dateUpdated": "2024-05-03 17:04:51"
+    },
+    {
+      "stationName": "Circle K West Pier ",
+      "latitude": 53.295490652,
+      "longitude": -6.147727668,
+      "countyName": "Dublin",
+      "dieselPrice": 1.738,
+      "unleadedPrice": 1.838,
+      "dateUpdated": "2024-05-26 17:14:03"
+    },
+    {
+      "stationName": "Circle K Clontarf",
+      "latitude": 53.35864216,
+      "longitude": -6.191607,
+      "countyName": "Dublin",
+      "dieselPrice": 1.739,
+      "unleadedPrice": 1.839,
+      "dateUpdated": "2024-05-22 10:11:06"
+    },
+    {
+      "stationName": "Circle K The Ward",
+      "latitude": 53.426904513,
+      "longitude": -6.329165697,
+      "countyName": "Dublin",
+      "dieselPrice": 1.858,
+      "unleadedPrice": 1.848,
+      "dateUpdated": "2023-10-23 19:01:42"
+    },
+    {
+      "stationName": "Ballygall Service Station",
+      "latitude": 53.383015119,
+      "longitude": -6.276751888,
+      "countyName": "Dublin",
+      "dieselPrice": 1.849,
+      "unleadedPrice": 1.859,
+      "dateUpdated": "2023-09-25 23:47:50"
+    },
+    {
+      "stationName": "Ashbourne Fuels",
+      "latitude": 53.31708249,
+      "longitude": -6.338810921,
+      "countyName": "Dublin",
+      "dieselPrice": 9.999,
+      "unleadedPrice": 9.909,
+      "dateUpdated": "2023-02-02 19:43:43"
+    },
+    {
+      "stationName": "Maxol Service Station",
+      "latitude": 53.337380031,
+      "longitude": -6.220267096,
+      "countyName": "Dublin",
+      "dieselPrice": 9.999,
+      "unleadedPrice": 9.999,
+      "dateUpdated": "2023-12-10 11:18:21"
+    },
+    {
+      "stationName": "Kimmage Discount Fuels",
+      "latitude": 53.31648322,
+      "longitude": -6.293841004,
+      "countyName": "Dublin",
+      "dieselPrice": 9.999,
+      "unleadedPrice": 9.999,
+      "dateUpdated": "2023-06-01 09:05:40"
+    },
+    {
+      "stationName": "Jones Oil",
+      "latitude": 53.29590105,
+      "longitude": -6.353187561,
+      "countyName": "Dublin",
+      "dieselPrice": 99.99,
+      "unleadedPrice": 9.999,
+      "dateUpdated": "2023-01-13 15:05:45"
+    },
+    {
+      "stationName": "Collinstown Business Park",
+      "latitude": 53.413579927,
+      "longitude": -6.237139106,
+      "countyName": "Dublin",
+      "dieselPrice": 1.138,
+      "unleadedPrice": 9.999,
+      "dateUpdated": "2020-08-02 16:50:57"
+    },
+    {
+      "stationName": "D4 Fuels",
+      "latitude": 53.33272462,
+      "longitude": -6.235932112,
+      "countyName": "Dublin",
+      "dieselPrice": 1.899,
+      "unleadedPrice": 9.999,
+      "dateUpdated": "2023-10-12 23:51:42"
+    },
+    {
+      "stationName": "Rings End Fuel Stop",
+      "latitude": 53.343272289,
+      "longitude": -6.22750327,
+      "countyName": "Dublin",
+      "dieselPrice": 9.999,
+      "unleadedPrice": 9.999,
+      "dateUpdated": "2012-10-22 08:50:05"
+    },
+    {
+      "stationName": "Bubbles Car Wash",
+      "latitude": 53.343762294,
+      "longitude": -6.227424145,
+      "countyName": "Dublin",
+      "dieselPrice": 9.999,
+      "unleadedPrice": 9.999,
+      "dateUpdated": "2012-10-22 19:13:06"
+    },
+    {
+      "stationName": "Ashbourne Oil",
+      "latitude": 53.316454378,
+      "longitude": -6.343445778,
+      "countyName": "Dublin",
+      "dieselPrice": 9.999,
+      "unleadedPrice": 9.999,
+      "dateUpdated": "2012-10-22 19:12:19"
     },
     {
       "stationName": "Low cost diesel",
@@ -12151,5 +13447,5 @@
       "dateUpdated": "2022-04-05 09:19:52"
     }
   ],
-  "updateDate": "2024-10-28T11:29:00.363Z"
+  "updateDate": "2024-10-28T11:53:28.228Z"
 }
