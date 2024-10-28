@@ -2509,7 +2509,7 @@
       "countyName": "Co. Wicklow",
       "dieselPrice": 1.789,
       "unleadedPrice": 1.789,
-      "dateUpdated": "2024-01-31T15:04:50.000Z"
+      "dateUpdated": "2024-10-28T17:10:50.000Z"
     },
     {
       "stationName": "Top Oil Roarty's Garage",
@@ -3751,7 +3751,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.658,
       "unleadedPrice": 1.738,
-      "dateUpdated": "2024-10-27T17:31:29.000Z"
+      "dateUpdated": "2024-10-28T16:52:18.000Z"
     },
     {
       "stationName": "Wexford Service Station",
@@ -4120,7 +4120,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.618,
       "unleadedPrice": 1.688,
-      "dateUpdated": "2024-10-23T09:22:36.000Z"
+      "dateUpdated": "2024-10-28T17:33:22.000Z"
     },
     {
       "stationName": "Top Oil MSA Lusk West",
@@ -4345,7 +4345,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.799,
       "unleadedPrice": 1.849,
-      "dateUpdated": "2024-10-08T19:35:49.000Z"
+      "dateUpdated": "2024-10-28T17:56:10.000Z"
     },
     {
       "stationName": "Birdhill Service Area",
@@ -4570,7 +4570,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.638,
       "unleadedPrice": 1.728,
-      "dateUpdated": "2024-10-28T08:25:46.000Z"
+      "dateUpdated": "2024-10-28T17:13:38.000Z"
     },
     {
       "stationName": "Togher",
@@ -6568,7 +6568,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.849,
       "unleadedPrice": 1.849,
-      "dateUpdated": "2023-09-30T19:29:20.000Z"
+      "dateUpdated": "2024-10-28T17:31:13.000Z"
     },
     {
       "stationName": "Circle K Ballylinan",
@@ -6829,7 +6829,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.669,
       "unleadedPrice": 1.739,
-      "dateUpdated": "2024-10-27T17:30:59.000Z"
+      "dateUpdated": "2024-10-28T16:52:03.000Z"
     },
     {
       "stationName": "Circle K Greenlane",
@@ -7350,8 +7350,8 @@
       "longitude": -6.2306244,
       "countyName": "Co. Dublin",
       "dieselPrice": 1.629,
-      "unleadedPrice": 1.689,
-      "dateUpdated": "2024-10-21T15:38:14.000Z"
+      "unleadedPrice": 1.709,
+      "dateUpdated": "2024-10-28T17:19:04.000Z"
     },
     {
       "stationName": "Circle K Mulhuddart",
@@ -7720,7 +7720,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.668,
       "unleadedPrice": 1.738,
-      "dateUpdated": "2024-10-27T17:31:37.000Z"
+      "dateUpdated": "2024-10-28T16:52:28.000Z"
     },
     {
       "stationName": "Circle K Rathdown",
@@ -7747,7 +7747,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.619,
       "unleadedPrice": 1.679,
-      "dateUpdated": "2024-10-27T17:31:52.000Z"
+      "dateUpdated": "2024-10-28T17:03:37.000Z"
     },
     {
       "stationName": "Circle K Sundrive",
@@ -8314,7 +8314,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.677,
       "unleadedPrice": 1.777,
-      "dateUpdated": "2024-10-21T15:37:49.000Z"
+      "dateUpdated": "2024-10-28T17:21:57.000Z"
     },
     {
       "stationName": "Texaco Davis Road",
@@ -15859,5 +15859,5 @@
       "dateUpdated": "2024-10-15T16:11:07.000Z"
     }
   ],
-  "updateDate": "2024-10-28T18:04:22.591Z"
+  "updateDate": "2024-10-28T19:24:28.854Z"
 }
