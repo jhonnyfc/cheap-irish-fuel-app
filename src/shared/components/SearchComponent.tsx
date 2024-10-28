@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useRef } from "react";
 
 interface Location {
   lat: number | null;
@@ -22,58 +22,47 @@ const SearchComponent: React.FC<SearchComponentProps> = ({
 }) => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [suggestions, setSuggestions] = useState<any[]>([]);
-  const [debouncedCity, setDebouncedCity] = useState(city);
   const [error, setError] = useState(false);
+  const suggestionsDebouncer = useRef<any>(null);
 
-  // Debounce effect: Update `debouncedCity` only after a delay
-  useEffect(() => {
-    const handler = setTimeout(() => {
-      setDebouncedCity(city);
-    }, 500); // 500ms debounce delay
+  const fetchCitySuggestions = async (cityTyped: string) => {
+    if (!cityTyped.trim()) return;
 
-    return () => {
-      clearTimeout(handler); // Clear timeout if input changes before delay is over
-    };
-  }, [city]);
+    try {
+      const response = await fetch(
+        `https://nominatim.openstreetmap.org/search?countrycodes=ie&q=${encodeURIComponent(
+          cityTyped
+        )}&format=json&addressdetails=1&limit=5`
+      );
+      const data = await response.json();
 
-  // Fetch Irish city suggestions only when `debouncedCity` changes
-  useEffect(() => {
-    const fetchCitySuggestions = async () => {
-      if (!debouncedCity.trim()) return;
-
-      try {
-        const response = await fetch(
-          `https://nominatim.openstreetmap.org/search?countrycodes=ie&q=${encodeURIComponent(
-            debouncedCity
-          )}&format=json&addressdetails=1&limit=5`
-        );
-        const data = await response.json();
-
-        if (data.length === 0) {
-          setError(true); // Set error if no results are found
-        } else {
-          setSuggestions(data);
-          setError(false); // Reset error if results are found
-        }
-      } catch (error) {
-        console.error("Error fetching city suggestions:", error);
-        setError(true); // Set error on fetch failure
+      if (data.length === 0) {
+        setError(true); // Set error if no results are found
+      } else {
+        setSuggestions(data);
+        setError(false); // Reset error if results are found
       }
-    };
+    } catch (error) {
+      console.error("Error fetching city suggestions:", error);
+      setError(true); // Set error on fetch failure
+    }
+  };
 
-    fetchCitySuggestions();
-  }, [debouncedCity]);
-
-  // Handle user typing in the city input
   const handleCityChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newValue = e.target.value;
-    setCity(newValue); // Update city input state
-    setError(false); // Reset error on new input
-
-    // Clear suggestions if input is empty
+    setError(false);
+    setCity(newValue); // Set input to selected city name
     if (!newValue.trim()) {
-      handleDeleteLocation();
+      return handleDeleteLocation();
     }
+
+    if (suggestionsDebouncer.current) {
+      clearTimeout(suggestionsDebouncer.current);
+    }
+
+    suggestionsDebouncer.current = setTimeout(() => {
+      fetchCitySuggestions(newValue);
+    }, 500);
   };
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -95,9 +84,6 @@ const SearchComponent: React.FC<SearchComponentProps> = ({
 
   return (
     <div className="flex flex-col items-center justify-center p-4 space-y-4">
-      <h2 className="text-xl font-semibold">Find Irish City Location</h2>
-
-      {/* Irish City Search Input */}
       <div className="relative w-full max-w-sm">
         <div className="flex items-center w-full max-w-sm space-x-2">
           {/* Search Input */}
@@ -147,25 +133,12 @@ const SearchComponent: React.FC<SearchComponentProps> = ({
         )}
       </div>
 
-      {/* Get Current Location Button */}
       <button
         onClick={onGetCurrentLocation}
         className="w-full max-w-sm px-4 py-2 text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
       >
         Use Current Location
       </button>
-
-      {/* Display Location Results */}
-      {location.lat && location.lon && (
-        <div className="mt-4 text-center">
-          <p className="text-gray-700">
-            Latitude: <span className="font-semibold">{location.lat}</span>
-          </p>
-          <p className="text-gray-700">
-            Longitude: <span className="font-semibold">{location.lon}</span>
-          </p>
-        </div>
-      )}
     </div>
   );
 };

@@ -48,7 +48,7 @@ function haversineDistance(
 export default function Home() {
   const [city, setCity] = useState<string>("");
   const [location, setLocation] = useState<Location>({ lat: null, lon: null });
-  const [distanceFilter, setDistanceFilter] = useState<number | null>(null);
+  const [distanceFilter, setDistanceFilter] = useState<number | null>(10);
   const [sortBy, setSortBy] = useState<string>("distance");
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
 
@@ -153,6 +153,8 @@ export default function Home() {
         Last updated: {formattedDate}
       </p>
 
+      <h1 className="text-2xl font-bold mt-4">Cheap Irish Petrol Station</h1>
+
       <SearchComponent
         city={city}
         location={location}
@@ -161,7 +163,7 @@ export default function Home() {
         onGetCurrentLocation={handleCurrentLocation}
       />
 
-      <div className="flex flex-col space-y-4 p-6 mt-1 mb-2">
+      <div className="flex flex-col space-y-4 p-6 mb-2">
         {/* Distance Filter */}
         <div className="flex items-center space-x-3">
           <label
@@ -181,6 +183,7 @@ export default function Home() {
             }
           >
             <option value="">All</option>
+            <option value="1">1 km</option>
             <option value="5">5 km</option>
             <option value="10">10 km</option>
             <option value="13">13 km</option>
@@ -258,26 +261,28 @@ export default function Home() {
       </div>
 
       <div className="space-y-4">
-        {filteredStations.map((station: Station, index: number) => (
-          <FuelStationCard
-            key={index}
-            name={station.stationName}
-            city={station.countyName ?? "---"}
-            distance={station.distance ?? "---"}
-            mapsLink={`https://www.google.com/maps?q=${station.latitude},${station.longitude}`}
-            fuelPrices={[
-              {
-                type: "Diesel",
-                price: station.dieselPrice ?? "---",
-              },
-              {
-                type: "Unleaded",
-                price: station.unleadedPrice ?? "---",
-              },
-            ]}
-            updatedDate={station.dateUpdated}
-          />
-        ))}
+        {!location.lat || !location.lon
+          ? ""
+          : filteredStations.map((station: Station, index: number) => (
+              <FuelStationCard
+                key={index}
+                name={station.stationName}
+                city={station.countyName ?? "---"}
+                distance={station.distance ?? "---"}
+                mapsLink={`https://www.google.com/maps?q=${station.latitude},${station.longitude}`}
+                fuelPrices={[
+                  {
+                    type: "Diesel",
+                    price: station.dieselPrice ?? "---",
+                  },
+                  {
+                    type: "Unleaded",
+                    price: station.unleadedPrice ?? "---",
+                  },
+                ]}
+                updatedDate={station.dateUpdated}
+              />
+            ))}
       </div>
     </div>
   );
