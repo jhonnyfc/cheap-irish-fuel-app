@@ -14,10 +14,11 @@ interface Station {
   stationName: string;
   latitude: number;
   longitude: number;
-  countyName: string;
+  countyName: string | null;
   distance?: number | null;
   dieselPrice: number | null;
   unleadedPrice: number | null;
+  dateUpdated?: string;
 }
 
 function haversineDistance(
@@ -261,7 +262,7 @@ export default function Home() {
           <FuelStationCard
             key={index}
             name={station.stationName}
-            city={station.countyName}
+            city={station.countyName ?? "---"}
             distance={station.distance ?? "---"}
             mapsLink={`https://www.google.com/maps?q=${station.latitude},${station.longitude}`}
             fuelPrices={[
