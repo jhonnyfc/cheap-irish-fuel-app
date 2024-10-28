@@ -18,7 +18,7 @@ interface Station {
   distance?: number | null;
   dieselPrice: number | null;
   unleadedPrice: number | null;
-  updatedDate?: string;
+  dateUpdated?: string;
 }
 
 function haversineDistance(
@@ -275,7 +275,7 @@ export default function Home() {
                 price: station.unleadedPrice ?? "---",
               },
             ]}
-            updatedDate={station.updatedDate}
+            updatedDate={station.dateUpdated}
           />
         ))}
       </div>
