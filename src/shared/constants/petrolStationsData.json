@@ -1,15 +1,6 @@
 {
   "stations": [
     {
-      "stationName": null,
-      "latitude": null,
-      "longitude": null,
-      "countyName": null,
-      "dieselPrice": null,
-      "unleadedPrice": null,
-      "dateUpdated": null
-    },
-    {
       "stationName": "Morris Oil",
       "latitude": 52.629950275,
       "longitude": -6.992862225,
