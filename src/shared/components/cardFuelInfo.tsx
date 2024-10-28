@@ -13,6 +13,7 @@ interface FuelStationCardProps {
   distance: number | string;
   mapsLink: string;
   fuelPrices: FuelPrice[];
+  updatedDate?: string | null;
 }
 
 const FuelStationCard: React.FC<FuelStationCardProps> = ({
@@ -21,7 +22,18 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
   distance,
   mapsLink,
   fuelPrices,
+  updatedDate,
 }) => {
+  const formattedDate = updatedDate
+    ? new Date(updatedDate).toLocaleString("en-GB", {
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+      })
+    : "---";
+
   const handleFavorite = () => {
     alert(`${name} added to favorites!`);
   };
@@ -63,6 +75,10 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
       >
         Add to Favorites
       </button>
+
+      <p className="mt-4 text-sm text-gray-500">
+        Last updated: {formattedDate}
+      </p>
     </div>
   );
 };
