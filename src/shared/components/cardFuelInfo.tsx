@@ -39,7 +39,7 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
   };
 
   return (
-    <div className="max-w-md p-4 bg-white border rounded-lg shadow-md">
+    <div className="max-w-[355px] p-4 bg-white border rounded-lg shadow-md">
       <div className="mb-2">
         <h2 className="text-xl font-bold text-gray-800">{name}</h2>
         <p className="text-gray-600">{city}</p>
