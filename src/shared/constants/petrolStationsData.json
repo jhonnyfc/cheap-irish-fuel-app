@@ -5,9 +5,9 @@
       "latitude": 53.3536151,
       "longitude": -6.2474133,
       "countyName": "Co. Dublin",
-      "dieselPrice": 1.549,
-      "unleadedPrice": 1.629,
-      "dateUpdated": "2024-10-28T08:26:11.000Z"
+      "dieselPrice": 1.569,
+      "unleadedPrice": 1.649,
+      "dateUpdated": "2024-10-29T11:50:18.000Z"
     },
     {
       "stationName": "Top Oil Roscommon Service Station",
@@ -15859,5 +15859,5 @@
       "dateUpdated": "2024-10-15T16:11:07.000Z"
     }
   ],
-  "updateDate": "2024-10-29T11:35:37.003Z"
+  "updateDate": "2024-10-29T13:30:38.013Z"
 }
