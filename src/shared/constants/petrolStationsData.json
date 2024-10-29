@@ -3299,9 +3299,9 @@
       "latitude": 52.1756721,
       "longitude": -7.138009,
       "countyName": "Co. Waterford",
-      "dieselPrice": 1.637,
-      "unleadedPrice": 1.697,
-      "dateUpdated": "2024-10-20T12:34:18.000Z"
+      "dieselPrice": 1.647,
+      "unleadedPrice": 1.707,
+      "dateUpdated": "2024-10-28T20:07:14.000Z"
     },
     {
       "stationName": "Top Oil Emyvale Service Station",
@@ -4523,9 +4523,9 @@
       "latitude": 52.1706167,
       "longitude": -7.1420895,
       "countyName": "Co. Waterford",
-      "dieselPrice": 1.637,
-      "unleadedPrice": 1.697,
-      "dateUpdated": "2024-10-20T12:33:21.000Z"
+      "dieselPrice": 1.647,
+      "unleadedPrice": 1.707,
+      "dateUpdated": "2024-10-28T20:08:08.000Z"
     },
     {
       "stationName": "Applegreen Killarney",
@@ -6737,9 +6737,9 @@
       "latitude": 52.25354,
       "longitude": -7.114725,
       "countyName": "Co. Waterford",
-      "dieselPrice": 1.669,
-      "unleadedPrice": 1.729,
-      "dateUpdated": "2024-10-20T12:34:43.000Z"
+      "dieselPrice": 1.699,
+      "unleadedPrice": 1.759,
+      "dateUpdated": "2024-10-28T20:08:47.000Z"
     },
     {
       "stationName": "CIRCLE K BLESSINGTON ROAD",
@@ -7666,7 +7666,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.618,
       "unleadedPrice": 1.688,
-      "dateUpdated": "2024-10-23T09:23:56.000Z"
+      "dateUpdated": "2024-10-28T18:49:35.000Z"
     },
     {
       "stationName": "CIRCLE K MALAHIDE",
@@ -10103,9 +10103,9 @@
       "latitude": 52.279082,
       "longitude": -7.1411164,
       "countyName": "Co. Kilkenny",
-      "dieselPrice": 1.659,
-      "unleadedPrice": 1.759,
-      "dateUpdated": "2024-09-22T13:33:25.000Z"
+      "dieselPrice": 1.699,
+      "unleadedPrice": 1.729,
+      "dateUpdated": "2024-10-28T20:09:20.000Z"
     },
     {
       "stationName": "Inver Rocklands",
@@ -11102,9 +11102,9 @@
       "latitude": 52.172289,
       "longitude": -7.1408915,
       "countyName": "Co. Waterford",
-      "dieselPrice": 1.658,
-      "unleadedPrice": 1.719,
-      "dateUpdated": "2024-10-20T12:33:48.000Z"
+      "dieselPrice": 1.668,
+      "unleadedPrice": 1.728,
+      "dateUpdated": "2024-10-28T20:07:38.000Z"
     },
     {
       "stationName": "SelectAsia Waterford",
@@ -11599,7 +11599,7 @@
       "countyName": "Co. Kilkenny",
       "dieselPrice": 1.739,
       "unleadedPrice": 1.799,
-      "dateUpdated": "2024-10-26T13:59:46.000Z"
+      "dateUpdated": "2024-10-28T20:09:33.000Z"
     },
     {
       "stationName": "Morris Oil",
@@ -15793,7 +15793,7 @@
       "countyName": "Co. Wicklow",
       "dieselPrice": 1.569,
       "unleadedPrice": 1.649,
-      "dateUpdated": "2024-10-26T09:38:02.000Z"
+      "dateUpdated": "2024-10-28T18:52:55.000Z"
     },
     {
       "stationName": "Amber Enniskeane",
@@ -15859,5 +15859,5 @@
       "dateUpdated": "2024-10-15T16:11:07.000Z"
     }
   ],
-  "updateDate": "2024-10-28T19:24:28.854Z"
+  "updateDate": "2024-10-29T09:10:49.162Z"
 }
