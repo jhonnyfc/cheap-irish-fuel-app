@@ -511,7 +511,7 @@
       "countyName": "Co. Kilkenny",
       "dieselPrice": 1.619,
       "unleadedPrice": 1.679,
-      "dateUpdated": "2024-10-25T18:34:37.000Z"
+      "dateUpdated": "2024-10-29T16:21:44.000Z"
     },
     {
       "stationName": "Beechgrove Filling Station",
@@ -7639,7 +7639,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.739,
       "unleadedPrice": 1.709,
-      "dateUpdated": "2024-09-27T11:09:06.000Z"
+      "dateUpdated": "2024-10-29T17:43:45.000Z"
     },
     {
       "stationName": "Circle K Deerpark",
@@ -15859,5 +15859,5 @@
       "dateUpdated": "2024-10-15T16:11:07.000Z"
     }
   ],
-  "updateDate": "2024-10-29T16:47:09.430Z"
+  "updateDate": "2024-10-29T18:09:53.422Z"
 }
