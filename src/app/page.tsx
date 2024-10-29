@@ -148,7 +148,7 @@ export default function Home() {
   }, [location, distanceFilter, sortBy, sortOrder]);
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center h-full">
       <p className="text-sm text-gray-600 mt-5">
         Last updated: {formattedDate}
       </p>
@@ -260,7 +260,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="space-y-4">
+      <div className="space-y-4 mb-4">
         {!location.lat || !location.lon
           ? ""
           : filteredStations.map((station: Station, index: number) => (
@@ -284,6 +284,18 @@ export default function Home() {
               />
             ))}
       </div>
+
+      <footer className="w-full bg-gray-100 border-t border-gray-300 py-4 mt-[auto] mb-[0px]">
+        <div className="text-center text-gray-600 text-sm">
+          © {new Date().getFullYear()} CheapIrishFuel. All rights reserved.{" "}
+          <a className="text-blue-600" href="https://github.com/jhonnyfc">
+            jhonnyfc
+          </a>
+        </div>
+        <div className="text-center text-xs text-gray-500 mt-1">
+          Developed with ❤️ to help you save on fuel costs across Ireland.
+        </div>
+      </footer>
     </div>
   );
 }
