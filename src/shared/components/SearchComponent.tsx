@@ -1,9 +1,5 @@
 import React, { useState, useRef } from "react";
-
-interface Location {
-  lat: number | null;
-  lon: number | null;
-}
+import { Location } from "@/shared/models/Location";
 
 interface SearchComponentProps {
   city: string;

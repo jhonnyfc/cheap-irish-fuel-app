@@ -4,11 +4,10 @@ import { useState, useMemo } from "react";
 import FuelStationCard from "@/shared/components/cardFuelInfo";
 import SearchComponent from "@/shared/components/SearchComponent";
 import petrolStationsData from "@/shared/constants/petrolStationsData.json";
-
-interface Location {
-  lat: number | null;
-  lon: number | null;
-}
+import { Location } from "@/shared/models/Location";
+import { haversineDistance } from "@/app/utils/haversineDistance";
+import { getCurrentLocationName } from "@/app/repository/getCurrentLocationName";
+import { getCurrentLocation } from "@/app/services/getCurrentLocationService";
 
 interface Station {
   stationName: string;
@@ -19,30 +18,6 @@ interface Station {
   dieselPrice: number | null;
   unleadedPrice: number | null;
   dateUpdated?: string | null;
-}
-
-function haversineDistance(
-  lat1: number,
-  lon1: number,
-  lat2: number,
-  lon2: number
-): number {
-  const toRad = (angle: number) => (angle * Math.PI) / 180;
-  const R = 6371; // Earth's radius in kilometers
-
-  const dLat = toRad(lat2 - lat1);
-  const dLon = toRad(lon2 - lon1);
-
-  const a =
-    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-    Math.cos(toRad(lat1)) *
-      Math.cos(toRad(lat2)) *
-      Math.sin(dLon / 2) *
-      Math.sin(dLon / 2);
-  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-  const distance = R * c; // Distance in kilometers
-
-  return Math.round(distance * 100) / 100; // Round to 2 decimal places
 }
 
 export default function Home() {
@@ -59,43 +34,16 @@ export default function Home() {
     year: "numeric",
   });
 
-  const setCityNameFromLatLong = async (
-    latitude: number,
-    longitude: number
-  ) => {
+  const handleCurrentLocation = async () => {
     try {
-      const response = await fetch(
-        `https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json`
-      );
-      const data = await response.json();
-      const city =
-        data.display_name ||
-        data.address.city ||
-        data.address.town ||
-        data.address.village ||
-        data.city_district;
-      setCity(city || "Unknown Location");
-    } catch (error) {
-      console.error("Error fetching location details:", error);
-    }
-  };
-
-  const handleCurrentLocation = () => {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          const { latitude, longitude } = position.coords;
-          setLocation({ lat: latitude, lon: longitude });
-          setCityNameFromLatLong(latitude, longitude);
-        },
-        (error) => {
-          console.error("Error getting current location:", error);
-          alert("Unable to retrieve your location.");
-        }
-      );
-    } else {
-      alert("Geolocation is not supported by this browser.");
-    }
+      const { lat, lon } = await getCurrentLocation();
+      if (!lat || !lon) {
+        return;
+      }
+      const currentLocationName = await getCurrentLocationName(lat, lon);
+      setLocation({ lat, lon });
+      setCity(currentLocationName);
+    } catch {}
   };
 
   const filteredStations = useMemo(() => {
