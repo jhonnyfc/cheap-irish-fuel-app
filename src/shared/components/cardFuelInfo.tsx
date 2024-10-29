@@ -46,11 +46,11 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
     const daysAgo = getDaysAgo();
 
     if (daysAgo < 0 || daysAgo > 4) {
-      return "text-gray-500";
+      return "text-red-500";
     }
 
     if (daysAgo <= 2) return "text-green-500";
-    if (daysAgo <= 4) return "text-orange-500";
+    if (daysAgo <= 6) return "text-orange-500";
   };
 
   return (
