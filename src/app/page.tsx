@@ -80,7 +80,6 @@ export default function Home() {
     }
   };
 
-  // Get current location using the Geolocation API
   const handleCurrentLocation = () => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
@@ -113,13 +112,11 @@ export default function Home() {
       return { ...station, distance };
     });
 
-    // Filter by distance
     const filtered = stationsWithDistance.filter((station) => {
       if (distanceFilter === null || station.distance === null) return true;
       return station.distance <= distanceFilter;
     });
 
-    // Sort by the selected criteria and order
     const sorted = filtered.sort((a, b) => {
       let aValue: number | null = null;
       let bValue: number | null = null;
@@ -162,7 +159,6 @@ export default function Home() {
       />
 
       <div className="flex flex-col space-y-4 p-6 mb-2">
-        {/* Distance Filter */}
         <div className="flex items-center space-x-3">
           <label
             htmlFor="distanceFilter"
@@ -192,7 +188,6 @@ export default function Home() {
           </select>
         </div>
 
-        {/* Sort By and Sort Order */}
         <div className="flex flex-col space-y-3">
           <div className="flex items-center space-x-3">
             <label

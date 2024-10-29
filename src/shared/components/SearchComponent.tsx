@@ -38,14 +38,14 @@ const SearchComponent: React.FC<SearchComponentProps> = ({
       const data = await response.json();
 
       if (data.length === 0) {
-        setError(true); // Set error if no results are found
+        setError(true);
       } else {
         setSuggestions(data);
-        setError(false); // Reset error if results are found
+        setError(false);
       }
     } catch (error) {
       console.error("Error fetching city suggestions:", error);
-      setError(true); // Set error on fetch failure
+      setError(true);
     }
   };
 
@@ -70,12 +70,11 @@ const SearchComponent: React.FC<SearchComponentProps> = ({
   const handleSelectSuggestion = (suggestion: any) => {
     const { lat, lon } = suggestion;
     setLocation({ lat: parseFloat(lat), lon: parseFloat(lon) });
-    setCity(suggestion.display_name); // Set input to selected city name
-    setSuggestions([]); // Clear suggestions after selection
-    setError(false); // Reset error after successful selection
+    setCity(suggestion.display_name);
+    setSuggestions([]);
+    setError(false);
   };
 
-  // Handle delete location
   const handleDeleteLocation = () => {
     setCity("");
     setLocation({ lat: null, lon: null });
