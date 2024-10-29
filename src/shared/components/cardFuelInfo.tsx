@@ -34,6 +34,25 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
       })
     : "---";
 
+  const getDaysAgo = () =>
+    updatedDate
+      ? Math.floor(
+          (new Date().getTime() - new Date(updatedDate).getTime()) /
+            (1000 * 60 * 60 * 24)
+        )
+      : -1;
+
+  const getTextColor = () => {
+    const daysAgo = getDaysAgo();
+
+    if (daysAgo < 0 || daysAgo > 3) {
+      return "text-gray-500";
+    }
+
+    if (daysAgo <= 2) return "text-green-500";
+    if (daysAgo <= 4) return "text-orange-500";
+  };
+
   return (
     <div className="max-w-[355px] p-4 bg-white border rounded-lg shadow-md">
       <div className="mb-2">
@@ -65,7 +84,7 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
         View on Google Maps
       </a>
 
-      <p className="mt-4 text-sm text-gray-500">
+      <p className={`mt-4 text-sm ${getTextColor()}`}>
         Last updated: {formattedDate}
       </p>
     </div>
