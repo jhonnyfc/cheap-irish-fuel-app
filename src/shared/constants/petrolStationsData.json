@@ -482,9 +482,9 @@
       "latitude": 51.9423653,
       "longitude": -7.9915539,
       "countyName": "Co. Cork",
-      "dieselPrice": 1.669,
+      "dieselPrice": 1.659,
       "unleadedPrice": 1.699,
-      "dateUpdated": "2024-10-25T07:49:56.000Z"
+      "dateUpdated": "2024-10-29T22:51:32.000Z"
     },
     {
       "stationName": "Top Oil Maghercloone Service Station",
@@ -502,7 +502,7 @@
       "countyName": "Co. Cork",
       "dieselPrice": 1.629,
       "unleadedPrice": 1.689,
-      "dateUpdated": "2024-10-25T07:49:35.000Z"
+      "dateUpdated": "2024-10-29T22:51:44.000Z"
     },
     {
       "stationName": "Kavanagh Service Station",
@@ -808,7 +808,7 @@
       "countyName": "Co. Cork",
       "dieselPrice": 1.689,
       "unleadedPrice": 1.739,
-      "dateUpdated": "2024-10-25T07:51:26.000Z"
+      "dateUpdated": "2024-10-29T22:51:10.000Z"
     },
     {
       "stationName": "Top Oil Bennettsbridge Service Station",
@@ -4046,9 +4046,9 @@
       "latitude": 51.9742448,
       "longitude": -7.8012266,
       "countyName": "Co. Waterford",
-      "dieselPrice": 1.668,
+      "dieselPrice": 1.648,
       "unleadedPrice": 1.698,
-      "dateUpdated": "2024-10-25T07:49:21.000Z"
+      "dateUpdated": "2024-10-29T22:52:06.000Z"
     },
     {
       "stationName": "Applegreen M1 Balbriggan",
@@ -5513,9 +5513,9 @@
       "latitude": 52.0837786,
       "longitude": -7.6340519,
       "countyName": "Co. Waterford",
-      "dieselPrice": 1.659,
-      "unleadedPrice": 1.719,
-      "dateUpdated": "2024-10-25T07:48:40.000Z"
+      "dieselPrice": 1.699,
+      "unleadedPrice": 1.739,
+      "dateUpdated": "2024-10-29T22:52:46.000Z"
     },
     {
       "stationName": "Circle K Express Edenderry",
@@ -8134,7 +8134,7 @@
       "countyName": "Co. Waterford",
       "dieselPrice": 1.659,
       "unleadedPrice": 1.699,
-      "dateUpdated": "2024-10-25T07:48:52.000Z"
+      "dateUpdated": "2024-10-29T22:53:07.000Z"
     },
     {
       "stationName": "CIRCLE K MACROOM",
@@ -9257,9 +9257,9 @@
       "latitude": 52.1671007,
       "longitude": -7.522281,
       "countyName": "Co. Waterford",
-      "dieselPrice": 1.669,
-      "unleadedPrice": 1.729,
-      "dateUpdated": "2024-10-25T07:47:26.000Z"
+      "dieselPrice": 1.679,
+      "unleadedPrice": 1.739,
+      "dateUpdated": "2024-10-29T22:53:55.000Z"
     },
     {
       "stationName": "Texaco Roche's",
@@ -9673,7 +9673,7 @@
       "countyName": "Co. Waterford",
       "dieselPrice": 1.659,
       "unleadedPrice": 1.699,
-      "dateUpdated": "2024-10-25T07:48:17.000Z"
+      "dateUpdated": "2024-10-29T22:52:55.000Z"
     },
     {
       "stationName": "Inver Elys Thurles",
@@ -12373,7 +12373,7 @@
       "countyName": "Co. Waterford",
       "dieselPrice": 1.659,
       "unleadedPrice": 1.699,
-      "dateUpdated": "2024-10-25T07:47:58.000Z"
+      "dateUpdated": "2024-10-29T22:53:17.000Z"
     },
     {
       "stationName": "Silverstream",
@@ -12382,7 +12382,7 @@
       "countyName": "Co. Waterford",
       "dieselPrice": 1.659,
       "unleadedPrice": 1.709,
-      "dateUpdated": "2024-10-25T07:47:49.000Z"
+      "dateUpdated": "2024-10-29T22:53:31.000Z"
     },
     {
       "stationName": "Comeragh Oil",
@@ -13983,8 +13983,8 @@
       "longitude": -7.525546,
       "countyName": "Co. Waterford",
       "dieselPrice": 1.658,
-      "unleadedPrice": 1.719,
-      "dateUpdated": "2024-10-26T14:01:02.000Z"
+      "unleadedPrice": 1.718,
+      "dateUpdated": "2024-10-29T22:54:12.000Z"
     },
     {
       "stationName": "Lafferty's Applegreen Service Station, Creeslough",
@@ -15859,5 +15859,5 @@
       "dateUpdated": "2024-10-15T16:11:07.000Z"
     }
   ],
-  "updateDate": "2024-10-29T18:09:53.422Z"
+  "updateDate": "2024-10-30T09:27:54.579Z"
 }
