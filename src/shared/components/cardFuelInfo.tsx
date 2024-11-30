@@ -65,7 +65,7 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
       </div>
 
       <div className="mb-4">
-        <h3 className="text-md font-semibold">Fuel Prices:</h3>
+        <h3 className="text-md font-semibold text-gray-700">Fuel Prices:</h3>
         <ul className="pl-4 list-disc">
           {fuelPrices.map((fuel, index) => (
             <li key={index} className="text-gray-600">

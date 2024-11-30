@@ -113,7 +113,7 @@ export default function Home() {
           </label>
           <select
             id="distanceFilter"
-            className="border border-gray-300 p-2 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="border border-gray-300 p-2 rounded-md shadow-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             value={distanceFilter || ""}
             onChange={(e) =>
               setDistanceFilter(
@@ -140,7 +140,7 @@ export default function Home() {
             </label>
             <select
               id="sortBy"
-              className="border border-gray-300 p-2 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="border border-gray-300 p-2 rounded-md shadow-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value)}
             >
