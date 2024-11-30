@@ -86,7 +86,7 @@ const SearchComponent: React.FC<SearchComponentProps> = ({
           <input
             type="text"
             placeholder="Enter Irish city name"
-            className={`flex-grow p-2 text-sm border rounded-md shadow-sm focus:outline-none focus:ring-2 ${
+            className={`flex-grow p-2 text-sm border rounded-md shadow-sm focus:outline-none focus:ring-2 text-black ${
               error
                 ? "border-red-500 focus:ring-red-500"
                 : "border-gray-300 focus:ring-blue-500"
