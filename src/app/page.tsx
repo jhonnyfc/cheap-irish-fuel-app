@@ -108,15 +108,12 @@ export default function Home() {
 
       <div className="flex flex-col space-y-4 p-6 mb-2">
         <div className="flex items-center space-x-3">
-          <label
-            htmlFor="distanceFilter"
-            className="text-lg font-semibold text-gray-700"
-          >
+          <label htmlFor="distanceFilter" className="text-lg font-semibold">
             Filter by Distance:
           </label>
           <select
             id="distanceFilter"
-            className="border border-gray-300 p-2 rounded-md shadow-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="border border-gray-300 p-2 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             value={distanceFilter || ""}
             onChange={(e) =>
               setDistanceFilter(
@@ -138,15 +135,12 @@ export default function Home() {
 
         <div className="flex flex-col space-y-3">
           <div className="flex items-center space-x-3">
-            <label
-              htmlFor="sortBy"
-              className="text-lg font-semibold text-gray-700"
-            >
+            <label htmlFor="sortBy" className="text-lg font-semibold">
               Sort By:
             </label>
             <select
               id="sortBy"
-              className="border border-gray-300 p-2 rounded-md shadow-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="border border-gray-300 p-2 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value)}
             >
