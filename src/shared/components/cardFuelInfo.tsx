@@ -84,7 +84,7 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
         View on Google Maps
       </a>
 
-      <p className={`mt-4 text-sm ${getTextColor()}`}>
+      <p className={`mt-4 text-sm ${getTextColor()} font-semibold`}>
         Last updated: {formattedDate}
       </p>
     </div>
