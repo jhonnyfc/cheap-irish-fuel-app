@@ -6,8 +6,8 @@
       "longitude": -6.2474133,
       "countyName": "Co. Dublin",
       "dieselPrice": 1.679,
-      "unleadedPrice": 1.719,
-      "dateUpdated": "2025-02-24T15:46:09.000Z"
+      "unleadedPrice": 1.729,
+      "dateUpdated": "2025-02-25T03:18:00.000Z"
     },
     {
       "stationName": "Top Oil Roscommon Service Station",
@@ -43,7 +43,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.679,
       "unleadedPrice": 1.719,
-      "dateUpdated": "2025-02-21T16:09:24.000Z"
+      "dateUpdated": "2025-02-25T03:15:58.000Z"
     },
     {
       "stationName": "Emo",
@@ -19324,5 +19324,5 @@
       "dateUpdated": "2025-02-15T11:03:30.000Z"
     }
   ],
-  "updateDate": "2025-02-24T22:48:24.965Z"
+  "updateDate": "2025-02-25T07:31:09.783Z"
 }
