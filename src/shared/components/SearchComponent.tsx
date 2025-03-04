@@ -112,7 +112,7 @@ const SearchComponent: React.FC<SearchComponentProps> = ({
             {suggestions.map((suggestion) => (
               <li
                 key={suggestion.place_id}
-                className="p-2 cursor-pointer hover:bg-blue-100"
+                className="p-2 cursor-pointer hover:bg-blue-100 text-black"
                 onClick={() => handleSelectSuggestion(suggestion)}
               >
                 {suggestion.display_name}
