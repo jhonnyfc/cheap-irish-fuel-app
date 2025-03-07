@@ -779,9 +779,9 @@
       "latitude": 51.8364801,
       "longitude": -8.3947202,
       "countyName": "Co. Cork",
-      "dieselPrice": 1.809,
-      "unleadedPrice": 1.829,
-      "dateUpdated": "2025-03-04T08:55:10.000Z"
+      "dieselPrice": 1.799,
+      "unleadedPrice": 1.819,
+      "dateUpdated": "2025-03-07T08:40:04.000Z"
     },
     {
       "stationName": "Top Oil Bennettsbridge Service Station",
@@ -1922,9 +1922,9 @@
       "latitude": 53.2209151,
       "longitude": -6.6580823,
       "countyName": "Co. Kildare",
-      "dieselPrice": 1.799,
-      "unleadedPrice": 1.799,
-      "dateUpdated": "2025-03-05T09:49:36.000Z"
+      "dieselPrice": 1.789,
+      "unleadedPrice": 1.789,
+      "dateUpdated": "2025-03-07T08:33:45.000Z"
     },
     {
       "stationName": "Teedees Ballinascarthy Service Station",
@@ -2336,9 +2336,9 @@
       "latitude": 52.2706741,
       "longitude": -7.0918416,
       "countyName": "Co. Kilkenny",
-      "dieselPrice": 1.789,
-      "unleadedPrice": 1.799,
-      "dateUpdated": "2025-03-01T14:15:19.000Z"
+      "dieselPrice": 1.769,
+      "unleadedPrice": 1.789,
+      "dateUpdated": "2025-03-06T20:06:54.000Z"
     },
     {
       "stationName": "Maxol Service Station Mullingar",
@@ -3749,9 +3749,9 @@
       "latitude": 53.2160201,
       "longitude": -6.6703685,
       "countyName": "Co. Kildare",
-      "dieselPrice": 1.788,
-      "unleadedPrice": 1.798,
-      "dateUpdated": "2025-03-05T09:49:48.000Z"
+      "dieselPrice": 1.778,
+      "unleadedPrice": 1.788,
+      "dateUpdated": "2025-03-07T08:31:21.000Z"
     },
     {
       "stationName": "Applegreen Clonsilla",
@@ -3814,7 +3814,7 @@
       "countyName": "Co. Tipperary",
       "dieselPrice": 1.699,
       "unleadedPrice": 1.779,
-      "dateUpdated": "2024-11-27T13:39:44.000Z"
+      "dateUpdated": "2025-03-07T08:58:46.000Z"
     },
     {
       "stationName": "Applegreen Corbally",
@@ -6532,7 +6532,7 @@
       "countyName": "Co. Waterford",
       "dieselPrice": 1.767,
       "unleadedPrice": 1.797,
-      "dateUpdated": "2025-03-01T13:19:04.000Z"
+      "dateUpdated": "2025-03-06T20:16:38.000Z"
     },
     {
       "stationName": "CIRCLE K BLESSINGTON ROAD",
@@ -8078,9 +8078,9 @@
       "latitude": 52.2652693,
       "longitude": -7.1082612,
       "countyName": "Co. Waterford",
-      "dieselPrice": 1.789,
+      "dieselPrice": 1.769,
       "unleadedPrice": 1.799,
-      "dateUpdated": "2025-03-01T14:15:05.000Z"
+      "dateUpdated": "2025-03-06T20:09:04.000Z"
     },
     {
       "stationName": "Texaco",
@@ -8294,9 +8294,9 @@
       "latitude": 53.3008548,
       "longitude": -6.2843715,
       "countyName": "Co. Dublin",
-      "dieselPrice": 1.789,
-      "unleadedPrice": 1.809,
-      "dateUpdated": "2025-02-28T16:00:33.000Z"
+      "dieselPrice": 1.779,
+      "unleadedPrice": 1.799,
+      "dateUpdated": "2025-03-06T20:40:46.000Z"
     },
     {
       "stationName": "Texaco Ballycoolin",
@@ -9851,9 +9851,9 @@
       "latitude": 52.2872661,
       "longitude": -7.0613781,
       "countyName": "Co. Kilkenny",
-      "dieselPrice": 1.729,
-      "unleadedPrice": 1.759,
-      "dateUpdated": "2025-03-02T15:42:45.000Z"
+      "dieselPrice": 1.699,
+      "unleadedPrice": 1.739,
+      "dateUpdated": "2025-03-06T19:58:07.000Z"
     },
     {
       "stationName": "Centra Timoleague",
@@ -13631,9 +13631,9 @@
       "latitude": 53.226097,
       "longitude": -6.659968,
       "countyName": "Co. Kildare",
-      "dieselPrice": 1.788,
-      "unleadedPrice": 1.798,
-      "dateUpdated": "2025-03-05T09:50:01.000Z"
+      "dieselPrice": 1.778,
+      "unleadedPrice": 1.788,
+      "dateUpdated": "2025-03-07T08:32:41.000Z"
     },
     {
       "stationName": "Applegreen Palmerstown",
@@ -19333,5 +19333,5 @@
       "dateUpdated": "2025-03-03T07:51:24.000Z"
     }
   ],
-  "updateDate": "2025-03-06T19:03:09.876Z"
+  "updateDate": "2025-03-07T12:04:49.111Z"
 }
