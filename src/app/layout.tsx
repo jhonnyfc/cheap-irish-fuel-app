@@ -15,12 +15,15 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Cheap Irish Fuel",
-  description: `Discover the best fuel prices across Ireland with CheapIrishFuel.info!
-  Our platform provides real-time updates on diesel and unleaded prices at petrol
-  stations nationwide, helping you find the cheapest options near you. Whether you're
-  looking to save on daily commutes or planning a road trip, CheapIrishFuel.info makes
-  it easy to compare prices, find fuel stations, and track the latest trends in Irish fuel costs.
-  Start saving on fuel today with our user-friendly, updated fuel map and station details tailored for drivers across Ireland!`,
+  description: `Find the Cheapest Diesel and Unleaded Fuel Prices in Ireland with CheapIrishFuel.info
+Save money on fuel with CheapIrishFuel.info, your trusted platform for finding the best diesel and unleaded
+fuel prices in Ireland. Our site offers real-time updates on diesel and unleaded fuel costs at petrol stations
+across the country, allowing you to easily compare prices and locate the cheapest fuel options near you.
+Whether you're driving a diesel or unleaded vehicle, CheapIrishFuel.info helps you make smarter decisions
+about where to refuel. From daily commutes to long road trips, our user-friendly platform lets you track the latest
+fuel prices and identify the best stations to save on every fill-up.
+Take control of your fuel budget today with our interactive fuel map and up-to-date station details,
+tailored to help drivers find the lowest prices on diesel and unleaded fuel across Ireland.`,
 };
 
 export default function RootLayout({
