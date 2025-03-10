@@ -150,8 +150,8 @@
       "longitude": -8.1054904,
       "countyName": "Co. Roscommon",
       "dieselPrice": 1.679,
-      "unleadedPrice": 1.709,
-      "dateUpdated": "2025-02-21T19:05:02.000Z"
+      "unleadedPrice": 1.719,
+      "dateUpdated": "2025-03-10T04:57:28.000Z"
     },
     {
       "stationName": "Conway oil",
@@ -1888,7 +1888,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.799,
       "unleadedPrice": 1.829,
-      "dateUpdated": "2025-03-09T14:37:33.000Z"
+      "dateUpdated": "2025-03-10T09:24:30.000Z"
     },
     {
       "stationName": "Top Oil McDonald's Oil",
@@ -3965,9 +3965,9 @@
       "latitude": 53.2979893,
       "longitude": -6.2034198,
       "countyName": "Co. Dublin",
-      "dieselPrice": 1.758,
-      "unleadedPrice": 1.758,
-      "dateUpdated": "2025-03-08T11:30:24.000Z"
+      "dieselPrice": 1.748,
+      "unleadedPrice": 1.748,
+      "dateUpdated": "2025-03-09T19:31:04.000Z"
     },
     {
       "stationName": "Top Oil MSA Lusk West",
@@ -7099,7 +7099,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.709,
       "unleadedPrice": 1.719,
-      "dateUpdated": "2025-03-07T17:41:15.000Z"
+      "dateUpdated": "2025-03-09T19:19:18.000Z"
     },
     {
       "stationName": "Circle K Mulhuddart",
@@ -7198,7 +7198,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.809,
       "unleadedPrice": 1.819,
-      "dateUpdated": "2025-03-06T10:05:13.000Z"
+      "dateUpdated": "2025-03-10T09:24:09.000Z"
     },
     {
       "stationName": "Circle K Corbally",
@@ -7333,7 +7333,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.799,
       "unleadedPrice": 1.829,
-      "dateUpdated": "2025-03-09T14:37:14.000Z"
+      "dateUpdated": "2025-03-10T09:24:22.000Z"
     },
     {
       "stationName": "CIRCLE K BEECHWOOD",
@@ -7412,9 +7412,9 @@
       "latitude": 53.2953661,
       "longitude": -6.2042354,
       "countyName": "Co. Dublin",
-      "dieselPrice": 1.758,
-      "unleadedPrice": 1.758,
-      "dateUpdated": "2025-03-08T11:30:32.000Z"
+      "dieselPrice": 1.748,
+      "unleadedPrice": 1.748,
+      "dateUpdated": "2025-03-09T19:30:40.000Z"
     },
     {
       "stationName": "CIRCLE K MALAHIDE",
@@ -7486,7 +7486,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.719,
       "unleadedPrice": 1.769,
-      "dateUpdated": "2025-03-08T20:40:28.000Z"
+      "dateUpdated": "2025-03-10T10:08:53.000Z"
     },
     {
       "stationName": "Circle K Round Tower",
@@ -7495,7 +7495,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.698,
       "unleadedPrice": 1.698,
-      "dateUpdated": "2025-03-08T22:29:00.000Z"
+      "dateUpdated": "2025-03-10T09:23:59.000Z"
     },
     {
       "stationName": "Circle K Sundrive",
@@ -7630,7 +7630,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.735,
       "unleadedPrice": 1.759,
-      "dateUpdated": "2025-03-08T13:38:27.000Z"
+      "dateUpdated": "2025-03-10T10:08:38.000Z"
     },
     {
       "stationName": "Circle K Kilmainham",
@@ -7781,9 +7781,9 @@
       "latitude": 53.321396,
       "longitude": -6.3573303,
       "countyName": "Co. Dublin",
-      "dieselPrice": 1.759,
-      "unleadedPrice": 1.759,
-      "dateUpdated": "2025-03-08T07:05:41.000Z"
+      "dieselPrice": 1.766,
+      "unleadedPrice": 1.788,
+      "dateUpdated": "2025-03-10T08:37:59.000Z"
     },
     {
       "stationName": "Circle K Ballacolla",
@@ -8062,7 +8062,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.797,
       "unleadedPrice": 1.827,
-      "dateUpdated": "2025-03-08T11:30:44.000Z"
+      "dateUpdated": "2025-03-09T19:24:08.000Z"
     },
     {
       "stationName": "Texaco Davis Road",
@@ -8278,7 +8278,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.749,
       "unleadedPrice": 1.769,
-      "dateUpdated": "2025-03-08T11:30:16.000Z"
+      "dateUpdated": "2025-03-09T19:51:12.000Z"
     },
     {
       "stationName": "Texaco N85",
@@ -9104,9 +9104,9 @@
       "latitude": 53.2853321,
       "longitude": -6.2396222,
       "countyName": "Co. Dublin",
-      "dieselPrice": 1.729,
-      "unleadedPrice": 1.739,
-      "dateUpdated": "2025-03-04T14:15:23.000Z"
+      "dieselPrice": 1.709,
+      "unleadedPrice": 1.719,
+      "dateUpdated": "2025-03-09T19:10:02.000Z"
     },
     {
       "stationName": "Certa",
@@ -15388,7 +15388,7 @@
       "countyName": "Co. Wicklow",
       "dieselPrice": 1.619,
       "unleadedPrice": 1.649,
-      "dateUpdated": "2025-03-01T10:31:27.000Z"
+      "dateUpdated": "2025-03-09T18:24:01.000Z"
     },
     {
       "stationName": "Amber Enniskeane",
@@ -19319,9 +19319,9 @@
       "latitude": 53.4181396,
       "longitude": -6.238013,
       "countyName": "Co. Dublin",
-      "dieselPrice": 1.669,
-      "unleadedPrice": 1.689,
-      "dateUpdated": "2025-03-08T08:25:14.000Z"
+      "dieselPrice": 1.645,
+      "unleadedPrice": 1.685,
+      "dateUpdated": "2025-03-09T19:26:58.000Z"
     },
     {
       "stationName": "Lisavaird Co Operative",
@@ -19333,5 +19333,5 @@
       "dateUpdated": "2025-03-07T17:24:29.000Z"
     }
   ],
-  "updateDate": "2025-03-09T17:35:07.706Z"
+  "updateDate": "2025-03-10T11:39:29.501Z"
 }
