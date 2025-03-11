@@ -1319,9 +1319,9 @@
       "latitude": 53.275794,
       "longitude": -6.2515393,
       "countyName": "Co. Dublin",
-      "dieselPrice": 1.789,
-      "unleadedPrice": 1.819,
-      "dateUpdated": "2025-02-19T10:40:56.000Z"
+      "dieselPrice": 1.759,
+      "unleadedPrice": 1.779,
+      "dateUpdated": "2025-03-11T09:52:45.000Z"
     },
     {
       "stationName": "Top Oil Tullow Flynn's Service Station",
@@ -1418,9 +1418,9 @@
       "latitude": 53.3237504,
       "longitude": -6.3508817,
       "countyName": "Co. Dublin",
-      "dieselPrice": 1.769,
+      "dieselPrice": 1.789,
       "unleadedPrice": 1.789,
-      "dateUpdated": "2025-03-08T07:06:32.000Z"
+      "dateUpdated": "2025-03-11T12:30:40.000Z"
     },
     {
       "stationName": "Maxol Service Station Lucan Road",
@@ -1924,7 +1924,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.789,
       "unleadedPrice": 1.789,
-      "dateUpdated": "2025-03-07T08:33:45.000Z"
+      "dateUpdated": "2025-03-11T12:26:52.000Z"
     },
     {
       "stationName": "Teedees Ballinascarthy Service Station",
@@ -1940,9 +1940,9 @@
       "latitude": 53.2125601,
       "longitude": -6.6663283,
       "countyName": "Co. Kildare",
-      "dieselPrice": 1.799,
-      "unleadedPrice": 1.809,
-      "dateUpdated": "2025-02-25T18:20:35.000Z"
+      "dieselPrice": 1.789,
+      "unleadedPrice": 1.789,
+      "dateUpdated": "2025-03-11T12:27:37.000Z"
     },
     {
       "stationName": "Top Oil Camier's Gala Service Station",
@@ -2696,9 +2696,9 @@
       "latitude": 53.3260155,
       "longitude": -6.3516319,
       "countyName": "Co. Dublin",
-      "dieselPrice": 1.799,
-      "unleadedPrice": 1.789,
-      "dateUpdated": "2025-02-14T18:09:02.000Z"
+      "dieselPrice": 1.766,
+      "unleadedPrice": 1.788,
+      "dateUpdated": "2025-03-11T12:29:49.000Z"
     },
     {
       "stationName": "Top Oil Mullingar Service Station",
@@ -3598,7 +3598,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.798,
       "unleadedPrice": 1.808,
-      "dateUpdated": "2025-03-10T17:04:26.000Z"
+      "dateUpdated": "2025-03-11T12:28:22.000Z"
     },
     {
       "stationName": "Wexford Service Station",
@@ -3751,7 +3751,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.778,
       "unleadedPrice": 1.788,
-      "dateUpdated": "2025-03-08T07:00:46.000Z"
+      "dateUpdated": "2025-03-11T12:27:11.000Z"
     },
     {
       "stationName": "Applegreen Clonsilla",
@@ -3938,18 +3938,18 @@
       "latitude": 53.2360171,
       "longitude": -6.727429,
       "countyName": "Co. Kildare",
-      "dieselPrice": 1.689,
-      "unleadedPrice": 1.779,
-      "dateUpdated": "2025-02-17T15:17:13.000Z"
+      "dieselPrice": 1.778,
+      "unleadedPrice": 1.798,
+      "dateUpdated": "2025-03-11T12:26:38.000Z"
     },
     {
       "stationName": "Applegreen Ballinteer",
       "latitude": 53.2744883,
       "longitude": -6.2594163,
       "countyName": "Co. Dublin",
-      "dieselPrice": 1.748,
-      "unleadedPrice": 1.768,
-      "dateUpdated": "2025-03-08T08:40:48.000Z"
+      "dieselPrice": 1.738,
+      "unleadedPrice": 1.758,
+      "dateUpdated": "2025-03-11T09:47:57.000Z"
     },
     {
       "stationName": "Applegreen Ennis",
@@ -4343,9 +4343,9 @@
       "latitude": 53.3120099,
       "longitude": -6.2015851,
       "countyName": "Co. Dublin",
-      "dieselPrice": 1.748,
-      "unleadedPrice": 1.768,
-      "dateUpdated": "2025-03-10T14:14:45.000Z"
+      "dieselPrice": 1.738,
+      "unleadedPrice": 1.758,
+      "dateUpdated": "2025-03-11T12:24:33.000Z"
     },
     {
       "stationName": "Tralee Monavalley",
@@ -6521,9 +6521,9 @@
       "latitude": 53.3182702,
       "longitude": -6.2108078,
       "countyName": "Co. Dublin",
-      "dieselPrice": 1.748,
+      "dieselPrice": 1.728,
       "unleadedPrice": 1.778,
-      "dateUpdated": "2025-03-10T14:14:30.000Z"
+      "dateUpdated": "2025-03-11T12:19:11.000Z"
     },
     {
       "stationName": "CIRCLE K MANOR",
@@ -7468,7 +7468,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.798,
       "unleadedPrice": 1.808,
-      "dateUpdated": "2025-03-10T17:04:19.000Z"
+      "dateUpdated": "2025-03-11T12:28:37.000Z"
     },
     {
       "stationName": "Circle K Rathdown",
@@ -7495,7 +7495,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.698,
       "unleadedPrice": 1.698,
-      "dateUpdated": "2025-03-10T09:23:59.000Z"
+      "dateUpdated": "2025-03-11T12:29:12.000Z"
     },
     {
       "stationName": "Circle K Sundrive",
@@ -8035,7 +8035,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.769,
       "unleadedPrice": 1.789,
-      "dateUpdated": "2025-03-10T14:16:32.000Z"
+      "dateUpdated": "2025-03-11T12:19:21.000Z"
     },
     {
       "stationName": "Texaco Service Station",
@@ -8402,9 +8402,9 @@
       "latitude": 53.0412647,
       "longitude": -7.2676529,
       "countyName": "Co. Laois",
-      "dieselPrice": 1.709,
-      "unleadedPrice": 1.719,
-      "dateUpdated": "2024-10-10T12:36:54.000Z"
+      "dieselPrice": 1.759,
+      "unleadedPrice": 1.769,
+      "dateUpdated": "2025-03-11T09:44:51.000Z"
     },
     {
       "stationName": "TEXACO Station Tullamore",
@@ -8935,7 +8935,7 @@
       "countyName": "Co. Kildare",
       "dieselPrice": 1.789,
       "unleadedPrice": 1.799,
-      "dateUpdated": "2025-03-08T06:59:55.000Z"
+      "dateUpdated": "2025-03-11T12:25:20.000Z"
     },
     {
       "stationName": "Texaco Spar Parkway",
@@ -10472,9 +10472,9 @@
       "latitude": 53.2279167,
       "longitude": -6.6867357,
       "countyName": "Co. Kildare",
-      "dieselPrice": 1.788,
-      "unleadedPrice": 1.798,
-      "dateUpdated": "2025-03-03T16:53:25.000Z"
+      "dieselPrice": 1.778,
+      "unleadedPrice": 1.788,
+      "dateUpdated": "2025-03-11T12:25:58.000Z"
     },
     {
       "stationName": "Texaco N78",
@@ -15395,9 +15395,9 @@
       "latitude": 51.7395,
       "longitude": -8.9256,
       "countyName": "Co. Cork",
-      "dieselPrice": 1.729,
+      "dieselPrice": 1.699,
       "unleadedPrice": 9.999,
-      "dateUpdated": "2025-03-07T16:38:13.000Z"
+      "dateUpdated": "2025-03-11T10:34:16.000Z"
     },
     {
       "stationName": "M Luttrell & Son",
@@ -19333,5 +19333,5 @@
       "dateUpdated": "2025-03-07T17:24:29.000Z"
     }
   ],
-  "updateDate": "2025-03-11T09:42:02.328Z"
+  "updateDate": "2025-03-11T13:43:40.077Z"
 }
