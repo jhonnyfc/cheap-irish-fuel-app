@@ -1627,7 +1627,7 @@
       "countyName": "Co. Wexford",
       "dieselPrice": 1.789,
       "unleadedPrice": 1.839,
-      "dateUpdated": "2025-03-24T17:22:22.000Z"
+      "dateUpdated": "2025-04-06T06:53:06.000Z"
     },
     {
       "stationName": "Top Oil O'Briens Londis",
@@ -2365,7 +2365,7 @@
       "countyName": "Co. Wexford",
       "dieselPrice": 1.669,
       "unleadedPrice": 1.749,
-      "dateUpdated": "2025-03-24T17:19:42.000Z"
+      "dateUpdated": "2025-04-06T06:52:20.000Z"
     },
     {
       "stationName": "Maxol Service Station Ardcavan",
@@ -3715,7 +3715,7 @@
       "countyName": "Co. Wexford",
       "dieselPrice": 1.609,
       "unleadedPrice": 1.679,
-      "dateUpdated": "2025-03-24T17:18:44.000Z"
+      "dateUpdated": "2025-04-06T06:50:36.000Z"
     },
     {
       "stationName": "Applegreen Hollyhill",
@@ -9826,7 +9826,7 @@
       "countyName": "Co. Wexford",
       "dieselPrice": 1.709,
       "unleadedPrice": 1.799,
-      "dateUpdated": "2024-06-10T13:47:58.000Z"
+      "dateUpdated": "2025-04-06T06:51:59.000Z"
     },
     {
       "stationName": "Inver Ryans",
@@ -10105,7 +10105,7 @@
       "countyName": "Co. Wexford",
       "dieselPrice": 1.659,
       "unleadedPrice": 1.729,
-      "dateUpdated": "2025-03-31T20:09:07.000Z"
+      "dateUpdated": "2025-04-06T06:52:40.000Z"
     },
     {
       "stationName": "GreatGas - Daly's Filling Station",
@@ -19324,5 +19324,5 @@
       "dateUpdated": "2025-03-07T17:24:29.000Z"
     }
   ],
-  "updateDate": "2025-04-05T21:56:30.241Z"
+  "updateDate": "2025-04-06T07:02:26.260Z"
 }
