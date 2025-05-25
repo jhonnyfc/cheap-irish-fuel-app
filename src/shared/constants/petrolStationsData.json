@@ -3065,9 +3065,9 @@
       "latitude": 51.9817726,
       "longitude": -8.5145992,
       "countyName": "Co. Cork",
-      "dieselPrice": 1.699,
-      "unleadedPrice": 1.729,
-      "dateUpdated": "2025-04-18T07:26:16.000Z"
+      "dieselPrice": 1.629,
+      "unleadedPrice": 1.679,
+      "dateUpdated": "2025-05-24T19:59:21.000Z"
     },
     {
       "stationName": "Top Oil Service Station Teeling Street",
@@ -19333,5 +19333,5 @@
       "dateUpdated": "2025-05-24T12:09:25.000Z"
     }
   ],
-  "updateDate": "2025-05-24T19:18:29.242Z"
+  "updateDate": "2025-05-25T09:18:59.937Z"
 }
