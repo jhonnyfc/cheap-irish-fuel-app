@@ -53,6 +53,17 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
     if (daysAgo <= 6) return "text-orange-500";
   };
 
+  const getFuelColor = (type: string) => {
+    switch (type.toLowerCase()) {
+      case "unleaded":
+        return "bg-green-600";
+      case "diesel":
+        return "bg-black";
+      default:
+        return "bg-gray-600";
+    }
+  };
+
   return (
     <div className="max-w-[355px] p-4 bg-white border rounded-lg shadow-md">
       <div className="mb-2">
@@ -66,9 +77,14 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
 
       <div className="mb-4">
         <h3 className="text-md font-semibold text-gray-700">Fuel Prices:</h3>
-        <ul className="pl-4 list-disc">
+        <ul className="pl-4 list-disc flex flex-col gap-1">
           {fuelPrices.map((fuel, index) => (
-            <li key={index} className="text-gray-600">
+            <li
+              key={index}
+              className={`w-fit rounded-[10px] px-[10px] ${getFuelColor(
+                fuel.type
+              )} text-white font-bold`}
+            >
               {fuel.type}: {fuel.price}€ per liter
             </li>
           ))}
