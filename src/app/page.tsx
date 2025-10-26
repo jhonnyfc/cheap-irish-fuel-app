@@ -8,6 +8,7 @@ import { Location } from "@/shared/models/Location";
 import { haversineDistance } from "@/app/utils/haversineDistance";
 import { getCurrentLocationName } from "@/app/repository/getCurrentLocationName";
 import { getCurrentLocation } from "@/app/services/getCurrentLocationService";
+import { Analytics } from "@vercel/analytics/next";
 
 interface Station {
   stationName: string;
@@ -231,6 +232,7 @@ export default function Home() {
           Developed with ❤️ to help you save on fuel costs across Ireland.
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
