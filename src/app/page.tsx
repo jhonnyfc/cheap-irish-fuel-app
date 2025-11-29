@@ -25,6 +25,7 @@ export default function Home() {
   const [city, setCity] = useState<string>("");
   const [location, setLocation] = useState<Location>({ lat: null, lon: null });
   const [distanceFilter, setDistanceFilter] = useState<number | null>(10);
+  const [updatedFilter, setUpdatedFilter] = useState<string>("all");
   const [sortBy, setSortBy] = useState<string>("distance");
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
 
@@ -47,23 +48,42 @@ export default function Home() {
     } catch {}
   };
 
-  const filteredStations = useMemo(() => {
-    const stationsWithDistance = petrolStationsData.stations.map((station) => {
-      const distance =
-        location.lat && location.lon
-          ? haversineDistance(
-              location.lat,
-              location.lon,
-              station.latitude,
-              station.longitude
-            )
-          : null;
-      return { ...station, distance };
-    });
+  const getDaysAgo = (updatedDate: number | null) =>
+    updatedDate
+      ? Math.floor(
+          (new Date().getTime() - new Date(updatedDate).getTime()) /
+            (1000 * 60 * 60 * 24)
+        )
+      : -1;
 
-    const filtered = stationsWithDistance.filter((station) => {
-      if (distanceFilter === null || station.distance === null) return true;
-      return station.distance <= distanceFilter;
+  const filteredStations = useMemo(() => {
+    const stationsWithDistanceToCurrentLocation =
+      petrolStationsData.stations.map((station) => {
+        const distance =
+          location.lat && location.lon
+            ? haversineDistance(
+                location.lat,
+                location.lon,
+                station.latitude,
+                station.longitude
+              )
+            : null;
+        return { ...station, distance };
+      });
+
+    const filtered = stationsWithDistanceToCurrentLocation.filter((station) => {
+      let isUpToDate = true;
+      if (updatedFilter === "upTodate") {
+        const daysAgo = getDaysAgo(station.dateUpdated);
+        isUpToDate = daysAgo >= 0 && daysAgo <= 2;
+      }
+
+      let isNerby = true;
+      if (distanceFilter !== null && station.distance !== null) {
+        isNerby = station.distance <= distanceFilter;
+      }
+
+      return isUpToDate && isNerby;
     });
 
     const sorted = filtered.sort((a, b) => {
@@ -89,7 +109,7 @@ export default function Home() {
     });
 
     return sorted;
-  }, [location, distanceFilter, sortBy, sortOrder]);
+  }, [location, distanceFilter, sortBy, sortOrder, updatedFilter]);
 
   return (
     <div className="flex flex-col items-center h-full">
@@ -108,6 +128,21 @@ export default function Home() {
       />
 
       <div className="flex flex-col space-y-4 p-6 mb-2">
+        <div className="flex items-center space-x-3">
+          <label htmlFor="updatedFilter" className="text-lg font-semibold">
+            Filter by date:
+          </label>
+          <select
+            id="updatedFilter"
+            className="border border-gray-300 p-2 rounded-md shadow-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            value={updatedFilter || ""}
+            onChange={(e) => setUpdatedFilter(e.target.value)}
+          >
+            <option value="all">All</option>
+            <option value="upTodate">Up to date</option>
+          </select>
+        </div>
+
         <div className="flex items-center space-x-3">
           <label htmlFor="distanceFilter" className="text-lg font-semibold">
             Filter by Distance:
