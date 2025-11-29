@@ -48,7 +48,7 @@ export default function Home() {
     } catch {}
   };
 
-  const getDaysAgo = (updatedDate: number | null) =>
+  const getDaysAgo = (updatedDate: string | null) =>
     updatedDate
       ? Math.floor(
           (new Date().getTime() - new Date(updatedDate).getTime()) /
