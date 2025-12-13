@@ -6737,9 +6737,9 @@
       "latitude": 53.349685,
       "longitude": -6.377509,
       "countyName": "Co. Dublin",
-      "dieselPrice": 1.748,
-      "unleadedPrice": 1.758,
-      "dateUpdated": "2025-11-29T20:16:14.000Z"
+      "dieselPrice": 1.738,
+      "unleadedPrice": 1.738,
+      "dateUpdated": "2025-12-13T01:56:45.000Z"
     },
     {
       "stationName": "Circle K Kinnegad",
@@ -7090,7 +7090,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.789,
       "unleadedPrice": 1.789,
-      "dateUpdated": "2025-12-07T16:57:20.000Z"
+      "dateUpdated": "2025-12-13T01:19:22.000Z"
     },
     {
       "stationName": "Circle K Taney",
@@ -7457,9 +7457,9 @@
       "latitude": 53.355288,
       "longitude": -6.372906,
       "countyName": "Co. Dublin",
-      "dieselPrice": 1.748,
-      "unleadedPrice": 1.748,
-      "dateUpdated": "2025-12-09T15:30:15.000Z"
+      "dieselPrice": 1.738,
+      "unleadedPrice": 1.738,
+      "dateUpdated": "2025-12-13T08:13:54.000Z"
     },
     {
       "stationName": "Circle K Rathcoole",
@@ -7637,9 +7637,9 @@
       "latitude": 53.3413074,
       "longitude": -6.3080245,
       "countyName": "Co. Dublin",
-      "dieselPrice": 1.718,
+      "dieselPrice": 1.708,
       "unleadedPrice": 1.708,
-      "dateUpdated": "2025-12-02T16:04:11.000Z"
+      "dateUpdated": "2025-12-13T08:21:28.000Z"
     },
     {
       "stationName": "Circle K Ashbourne",
@@ -7693,7 +7693,7 @@
       "countyName": "Co. Wicklow",
       "dieselPrice": 1.759,
       "unleadedPrice": 1.749,
-      "dateUpdated": "2025-12-12T22:47:23.000Z"
+      "dateUpdated": "2025-12-13T09:29:50.000Z"
     },
     {
       "stationName": "Circle K Kilcoole",
@@ -8242,7 +8242,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.769,
       "unleadedPrice": 1.769,
-      "dateUpdated": "2025-12-12T06:59:28.000Z"
+      "dateUpdated": "2025-12-13T01:19:03.000Z"
     },
     {
       "stationName": "Texaco",
@@ -8519,9 +8519,9 @@
       "latitude": 53.2665064,
       "longitude": -6.1841121,
       "countyName": "Co. Dublin",
-      "dieselPrice": 1.759,
-      "unleadedPrice": 1.759,
-      "dateUpdated": "2025-11-30T08:42:51.000Z"
+      "dieselPrice": 1.729,
+      "unleadedPrice": 1.729,
+      "dateUpdated": "2025-12-13T07:57:18.000Z"
     },
     {
       "stationName": "Texaco Churchtown Road",
@@ -10490,9 +10490,9 @@
       "latitude": 53.352964,
       "longitude": -6.363754,
       "countyName": "Co. Dublin",
-      "dieselPrice": 1.748,
-      "unleadedPrice": 1.748,
-      "dateUpdated": "2025-12-09T15:55:05.000Z"
+      "dieselPrice": 1.738,
+      "unleadedPrice": 1.738,
+      "dateUpdated": "2025-12-13T08:15:43.000Z"
     },
     {
       "stationName": "Applegreen Grange",
@@ -13642,7 +13642,7 @@
       "countyName": "Co. Dublin",
       "dieselPrice": 1.748,
       "unleadedPrice": 1.748,
-      "dateUpdated": "2025-12-09T15:53:36.000Z"
+      "dateUpdated": "2025-12-13T08:15:24.000Z"
     },
     {
       "stationName": "Applegreen Hillsborough",
@@ -19504,5 +19504,5 @@
       "dateUpdated": "2025-12-12T08:48:15.000Z"
     }
   ],
-  "updateDate": "2025-12-12T23:50:22.008Z"
+  "updateDate": "2025-12-13T10:15:41.219Z"
 }
