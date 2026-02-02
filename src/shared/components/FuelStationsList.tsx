@@ -13,11 +13,13 @@ import { Analytics } from "@vercel/analytics/next";
 interface FuelStationsListProps {
   initialStations: Station[];
   lastUpdated: string | null;
+  hasError?: boolean;
 }
 
 export default function FuelStationsList({
   initialStations,
   lastUpdated,
+  hasError = false,
 }: FuelStationsListProps) {
   const [city, setCity] = useState<string>("");
   const [location, setLocation] = useState<Location>({ lat: null, lon: null });
@@ -132,6 +134,7 @@ export default function FuelStationsList({
         setCity={setCity}
         setLocation={setLocation}
         onGetCurrentLocation={handleCurrentLocation}
+        disabled={hasError}
       />
 
       <div className="flex flex-col space-y-4 p-6 mb-2">
@@ -144,6 +147,7 @@ export default function FuelStationsList({
             className="border border-gray-300 p-2 rounded-md shadow-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             value={updatedFilter || ""}
             onChange={(e) => setUpdatedFilter(e.target.value)}
+            disabled={hasError}
           >
             <option value="all">All</option>
             <option value="upTodate">Up to date</option>
@@ -163,6 +167,7 @@ export default function FuelStationsList({
                 e.target.value ? parseInt(e.target.value) : null,
               )
             }
+            disabled={hasError}
           >
             <option value="">All</option>
             <option value="1">1 km</option>
@@ -186,6 +191,7 @@ export default function FuelStationsList({
               className="border border-gray-300 p-2 rounded-md shadow-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value)}
+              disabled={hasError}
             >
               <option value="distance">Distance</option>
               <option value="dieselPrice">Diesel Price</option>
@@ -195,7 +201,10 @@ export default function FuelStationsList({
 
           <button
             onClick={() => setSortOrder(sortOrder === "asc" ? "desc" : "asc")}
-            className="flex items-center justify-center space-x-2 p-2 border rounded-md bg-blue-500 text-white shadow hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className={`flex items-center justify-center space-x-2 p-2 border rounded-md bg-blue-500 text-white shadow hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+              hasError ? "opacity-50 cursor-not-allowed" : ""
+            }`}
+            disabled={hasError}
           >
             {sortOrder === "asc" ? (
               <>
@@ -237,6 +246,14 @@ export default function FuelStationsList({
           </button>
         </div>
       </div>
+
+      {hasError && (
+        <div className="flex justify-center w-full mb-6">
+          <p className="text-red-500 font-semibold px-4 py-2 border border-red-200 bg-red-50 rounded-md">
+            Data was not able to be fetched
+          </p>
+        </div>
+      )}
 
       <div className="space-y-4 mb-4">
         {!location.lat || !location.lon

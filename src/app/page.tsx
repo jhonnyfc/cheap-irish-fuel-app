@@ -8,11 +8,11 @@ export default async function Home() {
 
   if (!data) {
     return (
-      <div className="flex flex-col items-center justify-center h-screen">
-        <p className="text-xl font-semibold text-red-500">
-          Error loading station data. Please try again later.
-        </p>
-      </div>
+      <FuelStationsList
+        initialStations={[]}
+        lastUpdated={null}
+        hasError={true}
+      />
     );
   }
 

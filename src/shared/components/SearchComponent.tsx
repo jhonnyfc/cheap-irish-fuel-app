@@ -7,6 +7,7 @@ interface SearchComponentProps {
   setCity: React.Dispatch<React.SetStateAction<string>>;
   setLocation: React.Dispatch<React.SetStateAction<Location>>;
   onGetCurrentLocation: () => void;
+  disabled?: boolean;
 }
 
 const SearchComponent: React.FC<SearchComponentProps> = ({
@@ -15,6 +16,7 @@ const SearchComponent: React.FC<SearchComponentProps> = ({
   setCity,
   setLocation,
   onGetCurrentLocation,
+  disabled = false,
 }) => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [suggestions, setSuggestions] = useState<any[]>([]);
@@ -28,8 +30,8 @@ const SearchComponent: React.FC<SearchComponentProps> = ({
     try {
       const response = await fetch(
         `https://nominatim.openstreetmap.org/search?countrycodes=ie&q=${encodeURIComponent(
-          cityTyped
-        )}&format=json&addressdetails=1&limit=5`
+          cityTyped,
+        )}&format=json&addressdetails=1&limit=5`,
       );
       const data = await response.json();
 
@@ -93,6 +95,7 @@ const SearchComponent: React.FC<SearchComponentProps> = ({
             }`}
             value={city}
             onChange={handleCityChange}
+            disabled={disabled}
           />
 
           {/* Delete Button - Appears only when location is set */}
@@ -131,7 +134,10 @@ const SearchComponent: React.FC<SearchComponentProps> = ({
 
       <button
         onClick={onGetCurrentLocation}
-        className="w-full max-w-sm px-4 py-2 text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className={`w-full max-w-sm px-4 py-2 text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+          disabled ? "opacity-50 cursor-not-allowed" : ""
+        }`}
+        disabled={disabled}
       >
         Use Current Location
       </button>
