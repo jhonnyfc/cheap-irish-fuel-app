@@ -24,7 +24,7 @@ export default function FuelStationsList({
   const [city, setCity] = useState<string>("");
   const [location, setLocation] = useState<Location>({ lat: null, lon: null });
   const [distanceFilter, setDistanceFilter] = useState<number | null>(10);
-  const [updatedFilter, setUpdatedFilter] = useState<string>("all");
+  const [updatedFilter, setUpdatedFilter] = useState<string>("upTodate");
   const [sortBy, setSortBy] = useState<string>("distance");
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
 
@@ -77,7 +77,7 @@ export default function FuelStationsList({
       let isUpToDate = true;
       if (updatedFilter === "upTodate") {
         const daysAgo = getDaysAgo(station.dateUpdated ?? null);
-        isUpToDate = daysAgo >= 0 && daysAgo <= 2;
+        isUpToDate = daysAgo >= 0 && daysAgo <= 5;
       }
 
       let isNerby = true;
