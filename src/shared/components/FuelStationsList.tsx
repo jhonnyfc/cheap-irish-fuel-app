@@ -9,6 +9,7 @@ import { haversineDistance } from "@/app/utils/haversineDistance";
 import { getCurrentLocationName } from "@/app/repository/getCurrentLocationName";
 import { getCurrentLocation } from "@/app/services/getCurrentLocationService";
 import { Analytics } from "@vercel/analytics/next";
+import AdvertisingBanner from "@/shared/components/AdvertisingBanner";
 
 interface FuelStationsListProps {
   initialStations: Station[];
@@ -125,6 +126,13 @@ export default function FuelStationsList({
       <p className="text-sm text-gray-600 mt-5">
         Last updated: {formattedDate}
       </p>
+
+      <AdvertisingBanner
+        logoSrc="/aidora_logo.svg"
+        title="Aidora - find a professional near you"
+        description="Check out my other app!"
+        link="https://aidora.es"
+      />
 
       <h1 className="text-2xl font-bold mt-4">Cheap Irish Fuel</h1>
 
