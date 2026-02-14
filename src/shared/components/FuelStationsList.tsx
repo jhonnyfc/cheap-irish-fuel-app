@@ -131,7 +131,7 @@ export default function FuelStationsList({
         logoSrc="/aidora_logo.svg"
         title="Aidora - find a professional near you"
         description="Check out my other app!"
-        link="https://aidora.es"
+        link="https://aidora.info"
       />
 
       <h1 className="text-2xl font-bold mt-4">Cheap Irish Fuel</h1>
