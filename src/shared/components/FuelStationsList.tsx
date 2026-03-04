@@ -291,7 +291,7 @@ export default function FuelStationsList({
       <footer className="w-full bg-gray-100 border-t border-gray-300 py-4 mt-[auto] mb-[0px]">
         <div className="text-center text-gray-600 text-sm">
           © {new Date().getFullYear()} CheapIrishFuel. All rights reserved.{" "}
-          <a className="text-blue-600" href="https://github.com/jhonnyfc">
+          <a className="text-blue-600" href="https://aidora.info/jhonnyfc">
             jhonnyfc
           </a>
         </div>
