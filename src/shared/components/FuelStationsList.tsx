@@ -52,10 +52,11 @@ export default function FuelStationsList({
 
   const getDaysAgo = (updatedDate: string | null) =>
     updatedDate
-      ? Math.floor(
-          (new Date().getTime() - new Date(updatedDate).getTime()) /
-            (1000 * 60 * 60 * 24),
-        )
+      ? Math.round(
+          ((new Date().getTime() - new Date(updatedDate).getTime()) /
+            (1000 * 60 * 60 * 24)) *
+            100,
+        ) / 100
       : -1;
 
   const filteredStations = useMemo(() => {
@@ -78,7 +79,7 @@ export default function FuelStationsList({
       let isUpToDate = true;
       if (updatedFilter === "upTodate") {
         const daysAgo = getDaysAgo(station.dateUpdated ?? null);
-        isUpToDate = daysAgo >= 0 && daysAgo <= 5;
+        isUpToDate = daysAgo >= 0 && daysAgo < 4;
       }
 
       let isNerby = true;

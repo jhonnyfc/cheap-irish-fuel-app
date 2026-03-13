@@ -36,10 +36,11 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
 
   const getDaysAgo = () =>
     updatedDate
-      ? Math.floor(
-          (new Date().getTime() - new Date(updatedDate).getTime()) /
-            (1000 * 60 * 60 * 24)
-        )
+      ? Math.round(
+          ((new Date().getTime() - new Date(updatedDate).getTime()) /
+            (1000 * 60 * 60 * 24)) *
+            100,
+        ) / 100
       : -1;
 
   const getTextColor = () => {
@@ -82,7 +83,7 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
             <li
               key={index}
               className={`w-fit rounded-[10px] px-[10px] ${getFuelColor(
-                fuel.type
+                fuel.type,
               )} text-white font-bold`}
             >
               {fuel.type}: {fuel.price}€ per liter
