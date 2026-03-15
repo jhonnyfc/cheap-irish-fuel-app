@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Station } from "@/shared/models/Station";
 import ShareButton from "@/shared/components/ShareButton";
 import { Metadata } from "next";
+import AdvertisingBanner from "@/shared/components/AdvertisingBanner";
+import { Analytics } from "@vercel/analytics/next";
+import Footer from "@/shared/components/Footer";
 
 export const dynamic = "force-dynamic";
 
@@ -151,6 +154,15 @@ export default async function StationDetailsPage({ params }: PageProps) {
         </Link>
       </div>
 
+      <div className="w-full mx-auto flex justify-center">
+        <AdvertisingBanner
+          logoSrc="/aidora_logo.svg"
+          title="Aidora - find a professional near you"
+          description="Check out my other app!"
+          link="https://aidora.info"
+        />
+      </div>
+
       <div className="flex-1 w-full max-w-3xl mx-auto p-4 md:p-6 flex flex-col gap-6">
         {/* Header Section */}
         <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 relative overflow-hidden flex justify-between items-start gap-4">
@@ -284,6 +296,9 @@ export default async function StationDetailsPage({ params }: PageProps) {
           </a>
         </div>
       </div>
+
+      <Footer />
+      <Analytics />
     </div>
   );
 }

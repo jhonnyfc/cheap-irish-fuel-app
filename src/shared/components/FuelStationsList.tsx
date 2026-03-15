@@ -10,6 +10,7 @@ import { getCurrentLocationName } from "@/app/repository/getCurrentLocationName"
 import { getCurrentLocation } from "@/app/services/getCurrentLocationService";
 import { Analytics } from "@vercel/analytics/next";
 import AdvertisingBanner from "@/shared/components/AdvertisingBanner";
+import Footer from "@/shared/components/Footer";
 
 interface FuelStationsListProps {
   initialStations: Station[];
@@ -290,17 +291,7 @@ export default function FuelStationsList({
             ))}
       </div>
 
-      <footer className="w-full bg-gray-100 border-t border-gray-300 py-4 mt-[auto] mb-[0px]">
-        <div className="text-center text-gray-600 text-sm">
-          © {new Date().getFullYear()} CheapIrishFuel. All rights reserved.{" "}
-          <a className="text-blue-600" href="https://aidora.info/jhonnyfc">
-            jhonnyfc
-          </a>
-        </div>
-        <div className="text-center text-xs text-gray-500 mt-1">
-          Developed with ❤️ to help you save on fuel costs across Ireland.
-        </div>
-      </footer>
+      <Footer />
       <Analytics />
     </div>
   );
