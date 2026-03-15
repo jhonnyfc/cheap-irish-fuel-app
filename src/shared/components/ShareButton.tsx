@@ -5,19 +5,20 @@ import React, { useState } from "react";
 interface ShareButtonProps {
   title: string;
   text: string;
+  url?: string;
 }
 
-const ShareButton: React.FC<ShareButtonProps> = ({ title, text }) => {
+const ShareButton: React.FC<ShareButtonProps> = ({ title, text, url }) => {
   const [copied, setCopied] = useState(false);
 
   const handleShare = async () => {
-    const url = window.location.href;
+    const shareUrl = url || window.location.href;
     if (navigator.share) {
       try {
         await navigator.share({
           title,
           text,
-          url,
+          url: shareUrl,
         });
       } catch (error) {
         if ((error as Error).name !== "AbortError") {
@@ -26,7 +27,7 @@ const ShareButton: React.FC<ShareButtonProps> = ({ title, text }) => {
       }
     } else {
       try {
-        await navigator.clipboard.writeText(url);
+        await navigator.clipboard.writeText(shareUrl);
         setCopied(true);
         setTimeout(() => setCopied(false), 2000);
       } catch (error) {

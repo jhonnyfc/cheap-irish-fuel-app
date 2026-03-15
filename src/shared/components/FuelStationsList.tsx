@@ -270,6 +270,7 @@ export default function FuelStationsList({
           : filteredStations.map((station: Station, index: number) => (
               <FuelStationCard
                 key={index}
+                gasId={station.gasId}
                 name={station.stationName}
                 city={station.countyName ?? "---"}
                 distance={station.distance ?? "---"}

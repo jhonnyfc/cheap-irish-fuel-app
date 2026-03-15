@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import ShareButton from "@/shared/components/ShareButton";
 
 interface FuelPrice {
   type: string;
@@ -8,6 +9,7 @@ interface FuelPrice {
 }
 
 interface FuelStationCardProps {
+  gasId: string;
   name: string;
   city: string;
   distance: number | string;
@@ -17,6 +19,7 @@ interface FuelStationCardProps {
 }
 
 const FuelStationCard: React.FC<FuelStationCardProps> = ({
+  gasId,
   name,
   city,
   distance,
@@ -66,10 +69,17 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
   };
 
   return (
-    <div className="max-w-[355px] p-4 bg-white border rounded-lg shadow-md">
-      <div className="mb-2">
-        <h2 className="text-xl font-bold text-gray-800">{name}</h2>
-        <p className="text-gray-600">{city}</p>
+    <div className="max-w-[355px] p-4 bg-white border rounded-lg shadow-md relative">
+      <div className="mb-2 flex justify-between items-start gap-2">
+        <div>
+          <h2 className="text-xl font-bold text-gray-800">{name}</h2>
+          <p className="text-gray-600">{city}</p>
+        </div>
+        <ShareButton
+          title={`Check out ${name} - Found on Cheap Irish Fuel!!`}
+          text={`Fuel prices at ${name} in ${city}`}
+          url={`${process.env.NEXT_PUBLIC_BASE_URL}/station/${gasId}`}
+        />
       </div>
 
       <div className="mb-4 text-sm text-gray-500">
