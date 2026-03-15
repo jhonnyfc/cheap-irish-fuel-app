@@ -52,11 +52,18 @@ export async function generateMetadata({
       url,
       type: "website",
       siteName: "Cheap Irish Fuel",
+      images: [
+        {
+          url: `${process.env.NEXT_PUBLIC_BASE_URL}/favicon.ico`,
+          alt: "Cheap Irish Fuel Logo",
+        },
+      ],
     },
     twitter: {
       card: "summary",
       title,
       description,
+      images: [`${process.env.NEXT_PUBLIC_BASE_URL}/favicon.ico`],
     },
     alternates: {
       canonical: url,
