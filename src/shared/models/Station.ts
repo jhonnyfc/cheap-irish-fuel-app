@@ -1,4 +1,5 @@
 export interface Station {
+  gasId: string;
   stationName: string;
   latitude: number;
   longitude: number;
