@@ -182,7 +182,7 @@ export default async function StationDetailsPage({ params }: PageProps) {
           </div>
           <ShareButton
             title={`Check out ${station.stationName} - Found on Cheap Irish Fuel!!`}
-            text={`Fuel prices at ${station.stationName} in ${locationName}`}
+            text={`Fuel prices at ${station.stationName} in ${locationName} - Found on Cheap Irish Fuel!!`}
             url={`${process.env.NEXT_PUBLIC_BASE_URL}/station/${station.gasId}`}
           />
         </div>

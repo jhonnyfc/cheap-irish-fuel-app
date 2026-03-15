@@ -77,7 +77,7 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
         </div>
         <ShareButton
           title={`Check out ${name} - Found on Cheap Irish Fuel!!`}
-          text={`Fuel prices at ${name} in ${city}`}
+          text={`Fuel prices at ${name} in ${city} - Found on Cheap Irish Fuel!!`}
           url={`${process.env.NEXT_PUBLIC_BASE_URL}/station/${gasId}`}
         />
       </div>
