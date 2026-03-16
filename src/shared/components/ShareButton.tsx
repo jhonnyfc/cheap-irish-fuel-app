@@ -11,7 +11,8 @@ interface ShareButtonProps {
 const ShareButton: React.FC<ShareButtonProps> = ({ title, text, url }) => {
   const [copied, setCopied] = useState(false);
 
-  const handleShare = async () => {
+  const handleShare = async (e?: React.MouseEvent) => {
+    e?.stopPropagation();
     const shareUrl = url || window.location.href;
     if (navigator.share) {
       try {

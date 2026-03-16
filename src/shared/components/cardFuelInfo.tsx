@@ -68,8 +68,15 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
     }
   };
 
+  const handleCardClick = () => {
+    window.open(`/station/${gasId}`, "_blank");
+  };
+
   return (
-    <div className="max-w-[355px] p-4 bg-white border rounded-lg shadow-md relative">
+    <div 
+      className="max-w-[355px] p-4 bg-white border rounded-lg shadow-md relative cursor-pointer hover:shadow-lg transition-shadow duration-200"
+      onClick={handleCardClick}
+    >
       <div className="mb-2 flex justify-between items-start gap-2">
         <div>
           <h2 className="text-xl font-bold text-gray-800">{name}</h2>
@@ -106,7 +113,8 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
         href={mapsLink}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-500 hover:underline"
+        className="text-blue-500 hover:underline relative z-10"
+        onClick={(e) => e.stopPropagation()}
       >
         View on Google Maps
       </a>
