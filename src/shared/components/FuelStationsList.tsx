@@ -286,7 +286,7 @@ export default function FuelStationsList({
                     price: station.unleadedPrice ?? "---",
                   },
                 ]}
-                updatedDate={station.dateUpdated}
+                dateUpdated={station.dateUpdated}
               />
             ))}
       </div>

@@ -2,6 +2,7 @@
 
 import React from "react";
 import ShareButton from "@/shared/components/ShareButton";
+import { getTextColor } from "../utils/fuelInfoUtils";
 
 interface FuelPrice {
   type: string;
@@ -15,7 +16,7 @@ interface FuelStationCardProps {
   distance: number | string;
   mapsLink: string;
   fuelPrices: FuelPrice[];
-  updatedDate?: string | null;
+  dateUpdated?: string | null;
 }
 
 const FuelStationCard: React.FC<FuelStationCardProps> = ({
@@ -25,10 +26,10 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
   distance,
   mapsLink,
   fuelPrices,
-  updatedDate,
+  dateUpdated,
 }) => {
-  const formattedDate = updatedDate
-    ? new Date(updatedDate).toLocaleString("en-GB", {
+  const formattedDate = dateUpdated
+    ? new Date(dateUpdated).toLocaleString("en-GB", {
         day: "numeric",
         month: "long",
         year: "numeric",
@@ -36,26 +37,6 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
         minute: "2-digit",
       })
     : "---";
-
-  const getDaysAgo = () =>
-    updatedDate
-      ? Math.round(
-          ((new Date().getTime() - new Date(updatedDate).getTime()) /
-            (1000 * 60 * 60 * 24)) *
-            100,
-        ) / 100
-      : -1;
-
-  const getTextColor = () => {
-    const daysAgo = getDaysAgo();
-
-    if (daysAgo < 0 || daysAgo > 6) {
-      return "text-red-500";
-    }
-
-    if (daysAgo <= 2) return "text-green-500";
-    if (daysAgo <= 6) return "text-orange-500";
-  };
 
   const getFuelColor = (type: string) => {
     switch (type.toLowerCase()) {
@@ -73,7 +54,7 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
   };
 
   return (
-    <div 
+    <div
       className="max-w-[355px] p-4 bg-white border rounded-lg shadow-md relative cursor-pointer hover:shadow-lg transition-shadow duration-200"
       onClick={handleCardClick}
     >
@@ -119,7 +100,9 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
         View on Google Maps
       </a>
 
-      <p className={`mt-4 text-sm ${getTextColor()} font-semibold`}>
+      <p
+        className={`mt-4 text-sm ${getTextColor(dateUpdated as string)} font-semibold`}
+      >
         Last updated: {formattedDate}
       </p>
     </div>

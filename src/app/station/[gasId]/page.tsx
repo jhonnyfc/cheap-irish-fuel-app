@@ -8,6 +8,7 @@ import { Metadata } from "next";
 import AdvertisingBanner from "@/shared/components/AdvertisingBanner";
 import { Analytics } from "@vercel/analytics/next";
 import Footer from "@/shared/components/Footer";
+import { getTextColor } from "@/shared/utils/fuelInfoUtils";
 
 export const dynamic = "force-dynamic";
 
@@ -93,26 +94,6 @@ export default async function StationDetailsPage({ params }: PageProps) {
         minute: "2-digit",
       })
     : "---";
-
-  const getDaysAgo = () =>
-    data.updateDate
-      ? Math.round(
-          ((new Date().getTime() - new Date(data.updateDate).getTime()) /
-            (1000 * 60 * 60 * 24)) *
-            100,
-        ) / 100
-      : -1;
-
-  const getTextColor = () => {
-    const daysAgo = getDaysAgo();
-
-    if (daysAgo < 0 || daysAgo > 6) {
-      return "text-red-500";
-    }
-
-    if (daysAgo <= 2) return "text-green-500";
-    if (daysAgo <= 6) return "text-orange-500";
-  };
 
   const getFuelColor = (type: string) => {
     switch (type.toLowerCase()) {
@@ -242,7 +223,7 @@ export default async function StationDetailsPage({ params }: PageProps) {
 
           <div className="mt-6 pt-4 border-t border-gray-100 flex justify-end">
             <p
-              className={`text-sm ${getTextColor()} font-medium flex items-center gap-1`}
+              className={`text-sm ${getTextColor(station.dateUpdated as string)} font-medium flex items-center gap-1`}
             >
               <svg
                 className="w-4 h-4"
