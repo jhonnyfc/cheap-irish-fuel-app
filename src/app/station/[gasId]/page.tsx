@@ -85,8 +85,8 @@ export default async function StationDetailsPage({ params }: PageProps) {
     return notFound();
   }
 
-  const formattedDate = data.updateDate
-    ? new Date(data.updateDate).toLocaleString("en-GB", {
+  const formattedDate = station.dateUpdated
+    ? new Date(station.dateUpdated).toLocaleString("en-GB", {
         day: "numeric",
         month: "long",
         year: "numeric",
