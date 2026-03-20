@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="w-full bg-gray-100 border-t border-gray-300 py-4 mt-auto">
       <div className="text-center text-gray-600 text-sm">
-        © {new Date().getFullYear()} CheapIrishFuel. All rights reserved.{" "}
+        © {new Date().getFullYear()} CheapIrishFuel by{" "}
         <a className="text-blue-600" href="https://aidora.info/jhonnyfc">
           jhonnyfc
         </a>
