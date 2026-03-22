@@ -22,6 +22,7 @@ export const registerWithEmail = async (email: string, password: string) => {
       await createUser(userCredential.user.uid, userCredential.user.email);
     }
     return { user: userCredential.user, error: null };
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     return { user: null, error: error.message };
   }
@@ -35,6 +36,7 @@ export const loginWithEmail = async (email: string, password: string) => {
       password,
     );
     return { user: userCredential.user, error: null };
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     return { user: null, error: error.message };
   }
@@ -48,6 +50,7 @@ export const loginWithGoogle = async () => {
       await createUser(userCredential.user.uid, userCredential.user.email);
     }
     return { user: userCredential.user, error: null };
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     return { user: null, error: error.message };
   }
@@ -57,6 +60,7 @@ export const logoutUser = async () => {
   try {
     await signOut(auth);
     return { error: null };
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     return { error: error.message };
   }

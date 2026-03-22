@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
-import { onAuthStateChanged } from 'firebase/auth';
-import { auth } from '@/shared/services/authService';
-import { getUserById } from '@/shared/services/userService';
-import { getStationsData } from '@/shared/services/stationService';
-import { Station } from '@/shared/models/Station';
-import FuelStationCard from '@/shared/components/cardFuelInfo';
+import { useState, useEffect } from "react";
+import { onAuthStateChanged } from "firebase/auth";
+import { auth } from "@/shared/services/authService";
+import { getUserById } from "@/shared/services/userService";
+import { getStationsData } from "@/shared/services/stationService";
+import { Station } from "@/shared/models/Station";
+import FuelStationCard from "@/shared/components/cardFuelInfo";
 
 export default function FavoritesPage() {
   const [loading, setLoading] = useState(true);
@@ -23,7 +23,7 @@ export default function FavoritesPage() {
       try {
         const { userProfile, error: userError } = await getUserById(user.uid);
         if (userError || !userProfile) {
-          setError(userError || 'User profile not found.');
+          setError(userError || "User profile not found.");
           setLoading(false);
           return;
         }
@@ -37,15 +37,18 @@ export default function FavoritesPage() {
 
         const data = await getStationsData();
         if (!data || !data.stations) {
-          setError('Failed to fetch stations data.');
+          setError("Failed to fetch stations data.");
           setLoading(false);
           return;
         }
 
-        const filteredStations = data.stations.filter(st => userFavorites.includes(st.gasId));
+        const filteredStations = data.stations.filter((st) =>
+          userFavorites.includes(st.gasId),
+        );
         setFavStations(filteredStations);
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
       } catch (err) {
-        setError('An error occurred while fetching favorites.');
+        setError("An error occurred while fetching favorites.");
       } finally {
         setLoading(false);
       }
@@ -58,7 +61,9 @@ export default function FavoritesPage() {
     return (
       <div className="flex flex-col items-center justify-center h-full mt-20">
         <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mb-4"></div>
-        <p className="text-xl font-semibold text-gray-600">Loading favorites...</p>
+        <p className="text-xl font-semibold text-gray-600">
+          Loading favorites...
+        </p>
       </div>
     );
   }
@@ -77,8 +82,12 @@ export default function FavoritesPage() {
 
       {favStations.length === 0 ? (
         <div className="mt-10 p-8 border border-gray-200 bg-gray-50 rounded-lg shadow-sm text-center">
-          <p className="text-lg text-gray-600 font-medium">No gas favorites yet.</p>
-          <p className="text-sm text-gray-400 mt-2">Go back and save some stations to see them here!</p>
+          <p className="text-lg text-gray-600 font-medium">
+            No gas favorites yet.
+          </p>
+          <p className="text-sm text-gray-400 mt-2">
+            Go back and save some stations to see them here!
+          </p>
         </div>
       ) : (
         <div className="flex flex-wrap items-center justify-center gap-6 p-4 w-full max-w-7xl">
@@ -87,17 +96,17 @@ export default function FavoritesPage() {
               key={index}
               gasId={station.gasId}
               name={station.stationName}
-              city={station.countyName ?? '---'}
-              distance={station.distance ?? '---'}
+              city={station.countyName ?? "---"}
+              distance={station.distance ?? "---"}
               mapsLink={`https://www.google.com/maps?q=${station.latitude},${station.longitude}`}
               fuelPrices={[
                 {
-                  type: 'Diesel',
-                  price: station.dieselPrice ?? '---',
+                  type: "Diesel",
+                  price: station.dieselPrice ?? "---",
                 },
                 {
-                  type: 'Unleaded',
-                  price: station.unleadedPrice ?? '---',
+                  type: "Unleaded",
+                  price: station.unleadedPrice ?? "---",
                 },
               ]}
               dateUpdated={station.dateUpdated}
