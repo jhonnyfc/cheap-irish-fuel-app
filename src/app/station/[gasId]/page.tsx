@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Station } from "@/shared/models/Station";
 import ShareButton from "@/shared/components/ShareButton";
+import FavoriteButton from "@/shared/components/FavoriteButton";
 import { Metadata } from "next";
 import AdvertisingBanner from "@/shared/components/AdvertisingBanner";
 import { Analytics } from "@vercel/analytics/next";
@@ -168,11 +169,14 @@ export default async function StationDetailsPage({ params }: PageProps) {
               </p>
             )}
           </div>
-          <ShareButton
-            title={`Check out ${station.stationName} - Found on Cheap Irish Fuel!!`}
-            text={`Fuel prices at ${station.stationName} in ${locationName} - Found on Cheap Irish Fuel!!`}
-            url={`${process.env.NEXT_PUBLIC_BASE_URL}/station/${station.gasId}`}
-          />
+          <div className="flex items-center gap-2">
+            <FavoriteButton gasId={station.gasId} />
+            <ShareButton
+              title={`Check out ${station.stationName} - Found on Cheap Irish Fuel!!`}
+              text={`Fuel prices at ${station.stationName} in ${locationName} - Found on Cheap Irish Fuel!!`}
+              url={`${process.env.NEXT_PUBLIC_BASE_URL}/station/${station.gasId}`}
+            />
+          </div>
         </div>
 
         {/* Prices Section */}

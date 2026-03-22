@@ -1,11 +1,11 @@
-import { doc, setDoc, getDoc, getFirestore } from "firebase/firestore";
+import { doc, setDoc, getDoc, getFirestore, updateDoc, arrayUnion, arrayRemove } from "firebase/firestore";
 import { app } from "./firebase";
 
 export interface UserProfile {
   uid: string;
   email: string;
   createdAt: string;
-  // Add other required info here later
+  favorites?: string[];
 }
 
 const db = getFirestore(app);
@@ -53,5 +53,24 @@ export const getUserById = async (
       return { userProfile: null, error: error.message };
     }
     return { userProfile: null, error: String(error) };
+  }
+};
+
+export const toggleFavorite = async (
+  uid: string,
+  gasId: string,
+  isAdding: boolean,
+): Promise<{ success: boolean; error: string | null }> => {
+  try {
+    const userRef = doc(db, "users", uid);
+    await updateDoc(userRef, {
+      favorites: isAdding ? arrayUnion(gasId) : arrayRemove(gasId),
+    });
+    return { success: true, error: null };
+  } catch (error: unknown) {
+    if (error instanceof Error) {
+      return { success: false, error: error.message };
+    }
+    return { success: false, error: String(error) };
   }
 };

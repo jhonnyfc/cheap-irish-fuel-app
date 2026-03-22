@@ -1,7 +1,7 @@
 "use client";
 
-import React from "react";
 import ShareButton from "@/shared/components/ShareButton";
+import FavoriteButton from "@/shared/components/FavoriteButton";
 import { getTextColor } from "../utils/fuelInfoUtils";
 
 interface FuelPrice {
@@ -63,11 +63,14 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
           <h2 className="text-xl font-bold text-gray-800">{name}</h2>
           <p className="text-gray-600">{city}</p>
         </div>
-        <ShareButton
-          title={`Check out ${name} - Found on Cheap Irish Fuel!!`}
-          text={`Fuel prices at ${name} in ${city} - Found on Cheap Irish Fuel!!`}
-          url={`${process.env.NEXT_PUBLIC_BASE_URL}/station/${gasId}`}
-        />
+        <div className="flex items-center gap-1 z-10">
+          <FavoriteButton gasId={gasId} />
+          <ShareButton
+            title={`Check out ${name} - Found on Cheap Irish Fuel!!`}
+            text={`Fuel prices at ${name} in ${city} - Found on Cheap Irish Fuel!!`}
+            url={`${process.env.NEXT_PUBLIC_BASE_URL}/station/${gasId}`}
+          />
+        </div>
       </div>
 
       <div className="mb-4 text-sm text-gray-500">
