@@ -31,7 +31,7 @@ export default function Navbar() {
               href="/"
               className="font-bold text-lg text-blue-600 dark:text-blue-500"
             >
-              Fuel
+              Cheap Irish Fuel
             </Link>
           </div>
           <div className="flex items-center space-x-4">

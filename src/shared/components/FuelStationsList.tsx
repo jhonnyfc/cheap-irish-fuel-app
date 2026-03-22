@@ -125,18 +125,15 @@ export default function FuelStationsList({
 
   return (
     <div className="flex flex-col items-center h-full">
-      <p className="text-sm text-gray-600 mt-5">
-        Last updated: {formattedDate}
-      </p>
-
       <AdvertisingBanner
         logoSrc="/aidora_logo.svg"
         title="Aidora - find a professional near you"
         description="Check out my other app!"
         link="https://aidora.info"
       />
-
-      <h1 className="text-2xl font-bold mt-4">Cheap Irish Fuel</h1>
+      <p className="text-sm text-gray-600 mt-5">
+        Last updated: {formattedDate}
+      </p>
 
       <SearchComponent
         city={city}
