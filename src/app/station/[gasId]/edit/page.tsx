@@ -41,11 +41,11 @@ export default async function EditFuelStationPage({ params }: PageProps) {
     : `Lat: ${station.latitude.toFixed(2)}, Lng: ${station.longitude.toFixed(2)}`;
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col font-sans">
-      <div className="bg-white shadow-sm p-4 sticky top-0 z-10 flex items-center">
+    <div className="min-h-screen bg-gray-50 dark:bg-zinc-950 flex flex-col font-sans">
+      <div className="bg-white dark:bg-zinc-900 shadow-sm p-4 sticky top-0 z-10 flex items-center border-b dark:border-zinc-800">
         <Link
           href={`/station/${station.gasId}`}
-          className="text-blue-600 hover:text-blue-800 font-semibold flex items-center gap-2"
+          className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-semibold flex items-center gap-2"
         >
           <svg
             className="w-5 h-5"
@@ -65,13 +65,13 @@ export default async function EditFuelStationPage({ params }: PageProps) {
       </div>
 
       <div className="flex-1 w-full max-w-3xl mx-auto p-4 md:p-6 flex flex-col gap-6">
-        <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 relative overflow-hidden flex justify-between items-start gap-4">
+        <div className="bg-white dark:bg-zinc-900 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-zinc-800 relative overflow-hidden flex justify-between items-start gap-4">
           <div className="absolute top-0 left-0 w-2 h-full bg-blue-500"></div>
           <div>
-            <h1 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-1">
+            <h1 className="text-2xl md:text-3xl font-extrabold text-gray-900 dark:text-zinc-100 mb-1">
               {station.stationName}
             </h1>
-            <p className="text-gray-500 font-medium text-sm md:text-base uppercase tracking-wider">
+            <p className="text-gray-500 dark:text-zinc-400 font-medium text-sm md:text-base uppercase tracking-wider">
               {locationName}
             </p>
           </div>

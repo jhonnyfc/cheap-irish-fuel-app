@@ -40,7 +40,7 @@ export default function EditButton({ gasId }: EditButtonProps) {
     <div className="relative flex items-center justify-center">
       <button
         onClick={onClick}
-        className="p-2 rounded-full transition-colors duration-200 z-10 text-gray-400 hover:text-blue-500 hover:bg-blue-50"
+        className="p-2 rounded-full transition-colors duration-200 z-10 text-gray-400 dark:text-zinc-500 hover:text-blue-500 hover:bg-blue-50 dark:hover:bg-blue-900/30"
         aria-label="Edit gas station prices"
         title="Edit gas station prices"
       >

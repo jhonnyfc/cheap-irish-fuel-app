@@ -29,8 +29,8 @@ export default function FavoriteButton({ gasId }: FavoriteButtonProps) {
         onClick={onClick}
         className={`p-2 rounded-full transition-colors duration-200 z-10 ${
           isFavorite 
-            ? 'text-red-500 hover:bg-red-50' 
-            : 'text-gray-400 hover:text-red-500 hover:bg-red-50'
+            ? 'text-red-500 hover:bg-red-50 dark:hover:bg-red-900/30' 
+            : 'text-gray-400 dark:text-zinc-500 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-900/30'
         }`}
         aria-label={isFavorite ? "Remove from favorites" : "Add to favorites"}
         title={isFavorite ? "Remove from favorites" : "Add to favorites"}

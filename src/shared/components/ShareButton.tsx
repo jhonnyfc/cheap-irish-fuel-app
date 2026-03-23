@@ -40,7 +40,7 @@ const ShareButton: React.FC<ShareButtonProps> = ({ title, text, url }) => {
   return (
     <button
       onClick={handleShare}
-      className="p-3 text-gray-400 hover:text-blue-600 hover:bg-blue-50 rounded-full transition-colors duration-200 relative flex-shrink-0"
+      className="p-3 text-gray-400 dark:text-zinc-500 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/30 rounded-full transition-colors duration-200 relative flex-shrink-0"
       aria-label="Share station"
       title="Share station"
     >
