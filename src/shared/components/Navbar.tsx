@@ -27,11 +27,12 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-14 items-center">
           <div className="flex-shrink-0 flex items-center">
-            <Link
-              href="/"
-              className="font-bold text-lg text-blue-600 dark:text-blue-500"
-            >
-              Cheap Irish Fuel
+            <Link href="/" className="font-bold text-lg">
+              <span className="text-green-600 dark:text-green-500">Cheap </span>
+              <span className="text-white drop-shadow-[1px_1px_1px_rgba(0,0,0,0.9)] dark:drop-shadow-none">
+                Irish{" "}
+              </span>
+              <span className="text-orange-500 dark:text-orange-400">Fuel</span>
             </Link>
           </div>
           <div className="flex items-center space-x-4">
