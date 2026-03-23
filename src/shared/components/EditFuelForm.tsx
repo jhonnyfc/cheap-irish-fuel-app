@@ -57,14 +57,14 @@ export default function EditFuelForm({ station }: EditFuelFormProps) {
     }
 
     const lastUpdate = userProfile.lastGasStationUpdate;
-    if (lastUpdate && lastUpdate.stationId === station.gasId) {
+    if (lastUpdate) {
       const lastUpdateTime = new Date(lastUpdate.date).getTime();
       const now = new Date().getTime();
       const diffMinutes = (now - lastUpdateTime) / (1000 * 60);
 
       if (diffMinutes < 5) {
         showNotification(
-          "You can only update prices for the same station every 5 minutes.",
+          "You can only update prices once every 5 minutes.",
           "error",
           5000,
         );
@@ -126,7 +126,7 @@ export default function EditFuelForm({ station }: EditFuelFormProps) {
       station.gasId,
       uPrice,
       dPrice,
-      userUid
+      userUid,
     );
 
     if (success) {
