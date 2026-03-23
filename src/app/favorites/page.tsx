@@ -7,6 +7,7 @@ import { getUserById } from "@/shared/services/userService";
 import { getStationsData } from "@/shared/services/stationService";
 import { Station } from "@/shared/models/Station";
 import FuelStationCard from "@/shared/components/cardFuelInfo";
+import Footer from "@/shared/components/Footer";
 
 export default function FavoritesPage() {
   const [loading, setLoading] = useState(true);
@@ -90,7 +91,7 @@ export default function FavoritesPage() {
           </p>
         </div>
       ) : (
-        <div className="flex flex-wrap items-center justify-center gap-6 p-4 w-full max-w-7xl">
+        <div className="flex flex-col space-y-4 mb-4">
           {favStations.map((station, index) => (
             <FuelStationCard
               key={index}
@@ -114,6 +115,8 @@ export default function FavoritesPage() {
           ))}
         </div>
       )}
+
+      <Footer />
     </div>
   );
 }
