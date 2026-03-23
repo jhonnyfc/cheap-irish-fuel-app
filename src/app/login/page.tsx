@@ -5,6 +5,7 @@ import { loginWithEmail, loginWithGoogle } from "@/shared/services/authService";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Footer from "@/shared/components/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
@@ -135,6 +136,7 @@ export default function LoginPage() {
         </p>
       </div>
       <Footer />
+      <Analytics />
     </div>
   );
 }

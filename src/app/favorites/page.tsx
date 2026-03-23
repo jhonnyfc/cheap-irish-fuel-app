@@ -8,6 +8,7 @@ import { getStationsData } from "@/shared/services/stationService";
 import { Station } from "@/shared/models/Station";
 import FuelStationCard from "@/shared/components/cardFuelInfo";
 import Footer from "@/shared/components/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function FavoritesPage() {
   const [loading, setLoading] = useState(true);
@@ -117,6 +118,7 @@ export default function FavoritesPage() {
       )}
 
       <Footer />
+      <Analytics />
     </div>
   );
 }
