@@ -69,7 +69,8 @@ export const updateStationPrices = async (
     }
 
     // Direct O(1) update to the document fields without rewriting the entire map
-    await updateDoc(docRef, updates);
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    await updateDoc(docRef, updates as any);
 
     return { success: true, error: null };
   } catch (error: unknown) {
