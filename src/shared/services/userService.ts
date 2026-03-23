@@ -6,6 +6,10 @@ export interface UserProfile {
   email: string;
   createdAt: string;
   favorites?: string[];
+  lastGasStationUpdate?: {
+    date: string;
+    stationId: string;
+  };
 }
 
 const db = getFirestore(app);
@@ -65,6 +69,27 @@ export const toggleFavorite = async (
     const userRef = doc(db, "users", uid);
     await updateDoc(userRef, {
       favorites: isAdding ? arrayUnion(gasId) : arrayRemove(gasId),
+    });
+    return { success: true, error: null };
+  } catch (error: unknown) {
+    if (error instanceof Error) {
+      return { success: false, error: error.message };
+    }
+    return { success: false, error: String(error) };
+  }
+};
+
+export const recordGasStationUpdate = async (
+  uid: string,
+  gasId: string
+): Promise<{ success: boolean; error: string | null }> => {
+  try {
+    const userRef = doc(db, "users", uid);
+    await updateDoc(userRef, {
+      lastGasStationUpdate: {
+        date: new Date().toISOString(),
+        stationId: gasId,
+      },
     });
     return { success: true, error: null };
   } catch (error: unknown) {

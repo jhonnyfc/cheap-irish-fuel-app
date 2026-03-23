@@ -6,7 +6,9 @@ export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   if (
-    (pathname.startsWith("/profile") || pathname.startsWith("/favorites")) &&
+    (pathname.startsWith("/profile") ||
+      pathname.startsWith("/favorites") ||
+      (pathname.startsWith("/station/") && pathname.endsWith("/edit"))) &&
     !session
   ) {
     return NextResponse.redirect(new URL("/login", request.url));
@@ -23,5 +25,11 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/profile/:path*", "/login", "/register", "/favorites/:path*"],
+  matcher: [
+    "/profile/:path*",
+    "/login",
+    "/register",
+    "/favorites/:path*",
+    "/station/:path*/edit",
+  ],
 };

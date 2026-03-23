@@ -8,4 +8,5 @@ export interface Station {
   dieselPrice: number | null;
   unleadedPrice: number | null;
   dateUpdated?: string | null;
+  updatedBy?: string | null;
 }

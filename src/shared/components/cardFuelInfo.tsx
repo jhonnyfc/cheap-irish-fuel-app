@@ -2,6 +2,7 @@
 
 import ShareButton from "@/shared/components/ShareButton";
 import FavoriteButton from "@/shared/components/FavoriteButton";
+import EditButton from "@/shared/components/EditButton";
 import { getTextColor } from "../utils/fuelInfoUtils";
 
 interface FuelPrice {
@@ -64,6 +65,7 @@ const FuelStationCard: React.FC<FuelStationCardProps> = ({
           <p className="text-gray-600">{city}</p>
         </div>
         <div className="flex items-center gap-1 z-10">
+          <EditButton gasId={gasId} />
           <FavoriteButton gasId={gasId} />
           <ShareButton
             title={`Check out ${name} - Found on Cheap Irish Fuel!!`}

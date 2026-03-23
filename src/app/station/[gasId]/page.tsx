@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Station } from "@/shared/models/Station";
 import ShareButton from "@/shared/components/ShareButton";
 import FavoriteButton from "@/shared/components/FavoriteButton";
+import EditButton from "@/shared/components/EditButton";
 import { Metadata } from "next";
 import AdvertisingBanner from "@/shared/components/AdvertisingBanner";
 import { Analytics } from "@vercel/analytics/next";
@@ -170,6 +171,7 @@ export default async function StationDetailsPage({ params }: PageProps) {
             )}
           </div>
           <div className="flex items-center gap-2">
+            <EditButton gasId={station.gasId} />
             <FavoriteButton gasId={station.gasId} />
             <ShareButton
               title={`Check out ${station.stationName} - Found on Cheap Irish Fuel!!`}
