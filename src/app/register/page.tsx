@@ -39,9 +39,9 @@ export default function RegisterPage() {
 
   return (
     <div className="flex flex-col items-center min-h-full">
-      <h1 className="text-2xl font-bold mt-12 text-center">Cheap Irish Fuel</h1>
-      <p className="text-sm text-gray-600 mt-2 text-center">
-        Create a profile to update petro prices
+      <p className="text-sm text-gray-600 mt-6 text-center px-3">
+        Create a profile to update petro prices and help other drivers save
+        money
       </p>
 
       <div className="w-full max-w-sm flex flex-col space-y-4 p-6 mt-6 border rounded-lg shadow-sm bg-white dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800">
@@ -134,7 +134,7 @@ export default function RegisterPage() {
             href="/login"
             className="font-semibold text-blue-500 hover:text-blue-600"
           >
-            Log in
+            LOG IN HERE
           </Link>
         </p>
       </div>
