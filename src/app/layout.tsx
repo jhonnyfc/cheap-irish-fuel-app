@@ -17,6 +17,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://cheapirishfuel.info"),
   title: "Cheap Irish Fuel",
   description: `Find the Cheapest Diesel and Unleaded Fuel Prices in Ireland with CheapIrishFuel.info
 Save money on fuel with CheapIrishFuel.info, your trusted platform for finding the best diesel and unleaded
@@ -27,6 +28,26 @@ about where to refuel. From daily commutes to long road trips, our user-friendly
 fuel prices and identify the best stations to save on every fill-up.
 Take control of your fuel budget today with our interactive fuel map and up-to-date station details,
 tailored to help drivers find the lowest prices on diesel and unleaded fuel across Ireland.`,
+  openGraph: {
+    title: "Cheap Irish Fuel",
+    description: "Find the cheapest diesel and unleaded fuel prices in Ireland. Save money with real-time updates.",
+    url: "https://cheapirishfuel.info",
+    siteName: "Cheap Irish Fuel",
+    images: [
+      {
+        url: "/app-logo.png",
+        alt: "Cheap Irish Fuel",
+      },
+    ],
+    locale: "en_IE",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Cheap Irish Fuel",
+    description: "Find the cheapest diesel and unleaded fuel prices in Ireland. Save money with real-time updates.",
+    images: ["/app-logo.png"], 
+  },
 };
 
 export default function RootLayout({
