@@ -40,7 +40,7 @@ export default function Navbar() {
               <>
                 <Link
                   href="/favorites"
-                  className="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-500"
+                  className="text-sm font-bold text-red-500 dark:text-red-500 hover:text-blue-600 dark:hover:text-blue-500"
                 >
                   Favorites
                 </Link>
